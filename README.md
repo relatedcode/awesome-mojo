@@ -61,6 +61,9 @@ Kumulos supports all the major devices and platforms. Whether your project is wo
 - **[Kuzzle](http://kuzzle.io)** :zap:
 Kuzzle is an open-source back-end as a service (BaaS). Kuzzle combines a high level API, a database, a real-time engine, subscription and notification mechanisms as well as some advanced search features. The API is accessible through several standard protocols.
 
+- **[Ostetso](https://www.ostetso.com)** :zap:
+If you’ve been looking at Parse as part of a photo-sharing app, Ostetso is an SDK+Backend that provides all the pieces needed to create an Instagram-like app.  This includes cloud-based image-hosting, user registration and management, push notifications, social features, etc.  Also, an open-source sample application for Ostetso that's along the line's of Parse's Anypic is at [SharePictures](https://github.com/PrecipiceLabs/Ostetso_SharePictures)
+
 - **[PubNub](https://www.pubnub.com/)** :zap:
 PubNub powers low-latency messaging across any device, any platform, anywhere in the world. Use our simple APIs and SDKs to connect, build, and scale realtime applications on the PubNub Data Stream Network. Focus on shipping a great product instead of building and managing expensive data streaming infrastructure.
 
