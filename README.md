@@ -95,6 +95,9 @@ You can migrate your app from the hosted Parse backend to Google App Engine by r
 - **[IBM Bluemix](https://developer.ibm.com/clouddataservices/2016/01/29/parse-on-ibm-bluemix)**
 Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM SoftLayer. It supports the Node.js runtime required for Parse Server. Bluemix also comes with many database options, including MongoDB from IBM's Compose.io acquisition. Link includes migration instructions.
 
+- **[Parse Hosting](http://parsehosting.net)**
+Coming soon
+
 ###Push notification providers
 
 - **[Batch](https://batch.com)**
