@@ -78,6 +78,8 @@ Usergrid is an open-source Backend-as-a-Service (“BaaS” or “mBaaS”) comp
 
 - **[Couchbase Mobile](http://developer.couchbase.com/mobile)** :zap: A full-stack open-source NoSQL database. It includes an embedded database (for iOS, OS X, tvOS, watchOS, Android, Linux, Windows, Unity, Xamarin, PhoneGap/Cordova, and HTML5), a database server, multi-master replication with automatic and custom conflict resolution, fine-grained user/role based security, pluggable authentication, web-hooks, REST APIs, and Stream/Batch APIs. Apps using Couchbase Mobile work offline with data being automatically synchronized between the embedded databases and database server. It is designed to be easily integrated with other systems.
 
+- **[Countly](http://count.ly)** :zap: An open source mobile analytics, push notifications and crash reporting platform built on Node.js and MongoDB. There are more than 2000 servers running Countly to track more than 3000 applications. There are 3 different editions: Cloud, Community (open source) and all-in-one Enterprise. Companies can install Countly either on their premises (for data privacy and security) or on a private cloud.
+
 - **[Helios](http://helios.io)**
 An extensible open-source backend framework for iOS apps from Mattt Thompson. Helios is built on the Rack webserver interface and is comprised of a collection of backend components that you can mix and match to provide features including data synchronisation, push notifications, in-app purchases, Passbook, Newstand, logging and analytics.
 
