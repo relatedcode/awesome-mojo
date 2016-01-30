@@ -68,6 +68,9 @@ PubNub powers low-latency messaging across any device, any platform, anywhere in
 - **[Restdb.io](https://restdb.io)**
 Backend-as-a-service focused on a powerful interface for creating your database models and providing a JSON REST API.
 
+- **[Tapglue](https://www.tapglue.com)**
+Tapglue provides a powerful layer to create social networks. It focuses on user-management, events, posts & comments and provides a scalable solution for real-time feeds. There are open-source iOS and Android SDKs so developers can focus on building great user-experiences.
+
 - **[Telerik](http://www.telerik.com/platform/backend-services)**
 Telerik Backend Services is equipped with a robust set of security measures to encrypt and securely transport data from all communications. As your business needs grow, you can be sure that Telerik Backend Services will scale to meet your requirements.
 
