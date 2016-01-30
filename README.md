@@ -56,7 +56,7 @@ CloudKit is a framework that replaces back-end web services like old-school data
 - **[CloudMine](https://cloudmine.me)**
 Instantly embed mobile services such as: push notification, geolocation, social, SMS and personal fitness data with out-of-box support for mission critical APIs & web services. Make sure your mobile experience is enjoyed across all devices with support for iOS, Android, Microsoft, mobile web (HTML5), and cross-platform UI toolsets.
 
-- **[FatFractal](https://fatfractal.com)**
+- **[FatFractal](http://fatfractal.com)**
 FatFractal lets you get started quickly with schema-less collection and object creation, and builds on that with advanced features including: local development; advanced query language; bi-directional datagraph traversal; declarative permissions; push notifications; event-, endpoint- and schedule-triggered backend code; pluggable authentication; and much more. Offers native iOS, Android/Java, and HTML5/JavaScript SDKs.
 
 - **[Firebase](https://www.firebase.com)** :zap:
