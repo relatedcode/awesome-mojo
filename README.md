@@ -38,9 +38,6 @@ Backbeam offers many services that you will use to build your web and mobile app
 - **[Backendless](https://backendless.com)**
 A system of integrated, general purpose, mobile cloud services with native and REST APIs. Such as: User Management, Data Persistence, Geolocation, Media Streaming, Publish/Subscribe Messaging, Push Notifications, Custom Business Logic, Analytics, Mobile Code Generation.
 
-- **[brainCloud](http://getbraincloud.com)**
-brainCloud is a ready-made backend for the development of feature-rich mobile+social games and gamified apps. brainCloud provides the features you need - along with comprehensive tools to support your team during development, testing, and user support. brainCloud features include cloud data, cloud code, push notifications, social integration, gamification (xp, questions, achievements, leaderboards), in-app purchases, pricing controls, promotions, segments, analytics, external authentication, shared accounts, dataStream architecture, scheduled jobs and more. brainCloud is hosted on Amazon, built on MongoDB, and used javascript for Cloud Code scripts. Pricing starts at $30 / month.
-
 - **[Buddy](https://buddy.com)**
 A lightweight, fast and flexible platform for collecting and processing IoT data.
 
