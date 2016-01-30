@@ -52,6 +52,7 @@ CloudKit is a framework that replaces back-end web services like old-school data
 
 - **[CloudMine](https://cloudmine.me)**
 Instantly embed mobile services such as: push notification, geolocation, social, SMS and personal fitness data with out-of-box support for mission critical APIs & web services. Make sure your mobile experience is enjoyed across all devices with support for iOS, Android, Microsoft, mobile web (HTML5), and cross-platform UI toolsets.
+[Offers](https://cloudmine.me/2016/01/parse-is-shutting-down/) 50% discount for Parse users.
 
 - **[Firebase](https://www.firebase.com)** :zap:
 You can store & sync data with Firebase NoSQL cloud database. Data is stored as JSON, synced to all connected clients in realtime, and available when your app goes offline. You can also authenticate users with email & password, Facebook, Twitter, GitHub, Google, anonymous auth, or easily integrate with your existing authentication system.
