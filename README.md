@@ -100,6 +100,9 @@ Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM S
 - **[Batch](https://batch.com)**
 Batch is a push notification platform built around predictive analytics and smart segmentation algorithms. With Batch, you can efficiently send transactional (one to one) and marketing notifications (one to many) while leveraging our other modules to run a successful retention strategy.
 
+- **[CleverTap](https://clevertap.com/parse/)**
+Using Parse for Push Notifications? Migrate to CleverTap in two simple steps. Get High Volume, High throughput Push Notifications for all your platforms. 1 Million users Free every Month
+
 - **[OneSignal](https://www.onesignal.com)**
 OneSignal is a completely free push notification delivery service. We fund our product development through products offered to enterprise clients. We provide a suite of APIs and tools for mobile developers to send, schedule, localize, and A/B test their notification campaigns. Our highly reliable service has all the features of Parse and developers can use our Parse data importer to ease their switch.
 
