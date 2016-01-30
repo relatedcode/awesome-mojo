@@ -43,6 +43,7 @@ A lightweight, fast and flexible platform for collecting and processing IoT data
 
 - **[Built.io](https://www.built.io/products/backend/overview)** :zap:
 Built.io's award-winning mobile Backend-as-a-Service (mBaaS) allows companies to create applications without the hassle of designing, building, and maintaining a custom backend technology stack. Built.io Backend provides a proven, enterprise-grade platform that powers engaging applications for web, mobile and loT — built in weeks or days, instead of months.
+180 engineers (mostly from India), no outside funding. ["We are here for the long haul."](https://www.quora.com/What-alternatives-exist-to-Parse-now-that-it-is-shutting-down)
 
 - **[CloudBoost.io](https://www.cloudboost.io)** :zap:
 CloudBoost.io is a mobile Backend-as-a-Service (mBaaS) which lets you implement realtime, search and more in your app in minutes. Think of CloudBoost as Parse + Firebase + Algolia all combined into one. CloudBoost is an open platform, which is available on docker and can be installed on any server and on any cloud. It is also available as a managed service.
