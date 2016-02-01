@@ -187,6 +187,10 @@ Urban Airship helps leading brands engage their mobile users and build high-valu
 
 ###Analytics providers
 
+- **[AppAnalytics](http://appanalytics.io/)** :zap:
+Real-time mobile app analytics for the entire customer lifecycle with event-based analytics, crash analytics, heat map analytics and gesture recognition!
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/149)*)
+
 - **[Amazon Mobile Analytics](https://aws.amazon.com/mobileanalytics)** :zap:
 With Amazon Mobile Analytics, you can measure app usage and app revenue. By tracking key trends such as new vs. returning users, app revenue, user retention, and custom in-app behavior events, you can make data-driven decisions to increase engagement and monetization for your app. You can view key charts in the Mobile Analytics console and automatically export your app event data to Amazon S3 and Amazon Redshift to run custom analysis. Amazon Mobile Analytics is free up to 100 million events per month and just $1 per million events thereafter.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/110)*)
