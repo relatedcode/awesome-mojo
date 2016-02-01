@@ -168,9 +168,6 @@ Catapush is a simple, reliable and scalable delivery API for transactional push 
 Get delivery confirmation with real time status for each message sent and build intelligent messaging logic in your real time applications.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/106)*)
 
-- **[Kahuna](https://www.kahuna.com/)**
-Kahuna is a smart, multi-channel communication automation platform. Built originally for push, Kahuna also supports email, in-app, and social media communication channels. Kahuna focuses on tracking user actions and delivering across multiple channels, as well as providing intelligent services to suggest the best times and places to deliver messages.
-
 - **[Netmera](http://www.netmera.com)**
 Netmera is a Mobile Application Engagement Platform. We offer a series of development tools and app communication features to help your mobile business ignite and soar. Our platform will increase your mobile engagement with SMART campaigns and EASY data analysis features.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/107)*)
@@ -194,9 +191,6 @@ Pushy is an Android push notifications service up to 2x times faster than the co
 - **[Urban Airship](https://www.urbanairship.com)**
 Urban Airship helps leading brands engage their mobile users and build high-value relationships from the moment customers download an app. Thousands of companies and some of the most demanding brands in retail, media & entertainment, sports and travel & hospitality, trust Urban Airship to deliver the mobile moments that matter to their customers and to their business.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/52)*)
-
-- **[TUNE In-App Marketing](https://www.tune.com/in-app-marketing)**
-With In-App Marketing, the TUNE Marketing Console (TMC) now gives you ownership of the entire mobile marketing funnel, from first touch to ongoing retention, in one integrated platform. By optimizing user experience and delivering relevant content to the right people at the right time, In-App Marketing drives higher engagement and maximizes each user’s value.
 
 ###Analytics providers
 
@@ -264,6 +258,7 @@ The most powerful, yet lightest weight crash reporting solution.
 
 - **[Crittercism](http://www.crittercism.com)**
 Crashes are never welcome, but Crittercism can help you identify them as soon as they happen. Crash Reporting monitors both fatal and non-fatal errors so that you can fix issues before they impact users. Pinpoint where and why crashes are happening, who’s affected, and how to fix it.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/170)*)
 
 - **[FlightRecorder](https://www.flightrecorder.io)** 
 With our detailed crash reports you get a great start for crushing those crashes. With our higher packages you can even do more.
@@ -334,9 +329,6 @@ A full-stack open-source NoSQL database. It includes an embedded database (for i
 - **[GUN](http://gun.js.org)** :zap:
 GUN is a highly modular, open-source, real-time, offline-first, distributed cache storage engine.  By default gun uses localStorage for data storage, but with [gun-level](https://github.com/PsychoLlama/gun-level) there are [many more data storage engines](https://github.com/Level/levelup/wiki/Modules#storage) just a module away. GUN defaults to pushing all data. The gun team is regularly releasing new modules, new and improved functionality, and improving performance.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/132)*)
-
-- **[hook](http://github.com/doubleleft/hook)** :zap:
-hook is a backend as a service written in PHP. It was designed by real needs of a digital agency. It provides a powerful REST API, which allows developers to create many applications in the same backend endpoint. It has client implementations to many languages like [JavaScript](https://github.com/doubleleft/hook-javascript), [C#](https://github.com/doubleleft/hook-csharp), [Corona SDK](https://github.com/doubleleft/hook-corona-sdk), [iOS](https://github.com/doubleleft/hook-swift), [Java](https://github.com/doubleleft/hook-android), etc.
 
 - **[Kinto](https://github.com/Kinto/kinto)**
 Kinto is a lightweight JSON storage service with synchronisation and sharing abilities. It is meant to be easy to use and easy to self-host. Kinto is used at Mozilla and released under the Apache v2 licence.
