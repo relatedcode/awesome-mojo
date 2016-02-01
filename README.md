@@ -120,7 +120,7 @@ An alternative backend-as-a-service provider very similar to Parse. Like Parse, 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/39)*)
 
 - **[Microsoft Azure Mobile App Service](https://azure.microsoft.com/en-us/services/app-service/mobile)**
-This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac.
+This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac. You can migrate your apps as is by running [Parse Server on App Service](https://azure.microsoft.com/en-us/blog/azure-welcomes-parse-developers/).
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/98)*)
 
 - **[PubNub](https://www.pubnub.com)** :zap:
