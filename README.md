@@ -219,6 +219,9 @@ Our Mobile Engagement Platform brings together User Insights, Smart Targeting & 
 Make your product better by measuring actions, instead of page views. Mixpanel gives you the ability to easily measure what people are doing in your app on iOS, Android, and web.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/117)*)
 
+- **[Mixpanel](https://mixpanel.com)**
+Mixpanel is probably the leading mobile analytics SDK, offering rich analytics with a slick interface that allows  non-technical users to complete sophisticated analyses - onboarding funnels, cohort rentention, feature interaction, etc. The Mixpanel SDK also includes functionality to target and automate push notifications, in-app surveys, A/B test, and more.
+
 - **[Taplytics](https://taplytics.com)** 
 Taplytics is a fully integrated mobile A/B testing, push notification, and analytics platform providing the tools you need to optimize your mobile app. Taplytics supports transactional, geo, event and behavioral triggered push notifications, all of which can be a/b tested and optimized for success.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/118)*)
