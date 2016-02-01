@@ -27,6 +27,9 @@ The real-time providers are marked with :zap: icon.
 
 ###General purpose providers
 
+- **[QuickBlox](https://quickblox.com)** :zap:
+QuickBlox  is Communication as a Service provider. The platform provides chat using the XMPP protocol, WebRTC signalling for video/voice calling and an API for sending push notifications. It provides a user management system, data storage and more. The goal of QuickBlox is to add OTT(Over-the-top) communications to every app on the planet. Complete server-side infrastructure. Fully scalable, secure, with monitoring and analytics. Can be hosted within our cloud, on your premises or your dedicated AWS instance. 
+
 - **[AnyPresence](http://www.anypresence.com/solutions/mbaas)**
 The AnyPresence MBaaS is focused on simplifying the process of building enterprise mobile apps that run on many devices, without sacrificing developer flexibility. Users without much mobile experience or time can get started quickly, to assemble and deploy an app through a web-based designer. Advanced developers have access to the source code for all underlying components, to make customizations outside the platform or deploy server components on-premise.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/25)*)
