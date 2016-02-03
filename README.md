@@ -442,7 +442,7 @@ Joyents elastic container infrastructure backed by bare metal. It allows you to 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/182)*)
 
 - **[ParseHosting](http://parsehosting.net)**
-ParseHosting will be offering self/managed Parse Server hosting together with supplementary services to support the missing App features
+ParseHosting will be offering self/managed Parse Server hosting together with supplementary services to support the missing Parse Server features, such as PUSH
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/213)*)
 
 
