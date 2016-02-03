@@ -136,6 +136,9 @@ Backend as a service with a GraphQL API. Reindex offers data storage, authentica
 Backend-as-a-service focused on a powerful interface for creating your database models and providing a JSON REST API.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/100)*)
 
+- **[SlashDB](http://slashdb.com)**
+Don't bet your data with another "hot" backend-as-a-service provider. SlashDB is an automated API gateway that you install next to traditional database such as MySQL, PostgreSQL, Oracle, SQL Server, SQLite and others. Installation is a few clicks on [Amazon](https://aws.amazon.com/marketplace/pp/B013TO6DKE/) or [Azure](https://azure.microsoft.com/en-us/marketplace/partners/vte/slashdb/), or [even on premises](http://slashdb.com/get-slashdb). Best of all you are in control. You own the product license, and you decide when to upgrade so your backend will always be there and stable.
+
 - **[Syncano](https://www.syncano.io)**
 Syncano is a highly customizable BaaS that greatly reduces the need for backend code and middleware so developers can focus on building exceptional user experiences.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/101)*)
