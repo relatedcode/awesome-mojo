@@ -5,6 +5,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 ###What features are we looking for?
 - Data Storage
 - Push Notifications
+- Messaging
 - Usage Analytics
 - Dashboard
 - Social Integration
