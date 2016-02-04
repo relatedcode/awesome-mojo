@@ -463,4 +463,4 @@ Joyents elastic container infrastructure backed by bare metal. It allows you to 
 ### Commerce Solution providers
 
 - **[commercetools](http://www.commercetools.com/)**
-commercetools is a cloud-based platform for commerce applications. Developers can build any kind of frontend application (web, native, etc.) on top of a well-documented REST API and maintain product, customer and order data through an easy-to-use backend application.
+commercetools is a cloud-based platform for commerce applications. Developers can build any kind of frontend application (web, native, etc.) on top of a well-documented REST API and maintain product, customer and order data through an easy-to-use backend GUI.
