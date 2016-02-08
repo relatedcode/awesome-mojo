@@ -175,7 +175,7 @@ Boxcar is reliable and inexpensive push notification platform support iOS and An
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/104)*)
 
 - **[Carnival](http://www.carnival.io)**
-Carnival mobile marketing automation drives app engagement and customer conversions. Carnival gives you three channels to engage your users with rich messaging: push notifications to drive app opens; in-app notifications to increase conversions; and a customizable Message Stream to deliver rich, full-screen content. Carnival also offers rich audience segmentation and message automation. 
+Carnival mobile marketing automation drives app engagement and customer conversions. Carnival gives you three channels to engage your users with rich messaging: push notifications to drive app opens; in-app notifications to increase conversions; and a customizable Message Stream to deliver rich, full-screen content. Carnival also offers rich audience segmentation and message automation.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/105)*)
 
 - **[Catapush](https://www.catapush.com)** :zap:
@@ -216,8 +216,11 @@ Pushy is an Android push notifications service up to 2x times faster than the co
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/134)*)
 
 - **[RadiumOne](https://radiumone.com/connect)**
-Connect is a free push notification and in-app analytics tool from RadiumOne. It is ideal for targetting Push Notifications based on in-app user behavior and coordinating Push Messaging with advertising through the integrated RadiumOne Data Management Platform (DMP) and programatic media-buying tools. Push messages can be targetted to users based on tagging, segmentation, and geolocation. 
+Connect is a free push notification and in-app analytics tool from RadiumOne. It is ideal for targetting Push Notifications based on in-app user behavior and coordinating Push Messaging with advertising through the integrated RadiumOne Data Management Platform (DMP) and programatic media-buying tools. Push messages can be targetted to users based on tagging, segmentation, and geolocation.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/223)*)
+
+- **[Swrve](https://swrve.com)**
+Swrve is an integrated mobile marketing platform, used by some of the world's leading app businesses to drive retention, engagement and revenue on mobile. The Swrve platform supports both in-depth analytics and highly sophisticated push campaigns, in addition to rich in-app messaging support and a/b testing of the native mobile environment. As a result the platform is able to deliver more personal, relevant and effective campaigns than previously possible in mobile - and deliver the metrics to match.
 
 - **[Urban Airship](https://www.urbanairship.com)**
 Urban Airship helps leading brands engage their mobile users and build high-value relationships from the moment customers download an app. Thousands of companies and some of the most demanding brands in retail, media & entertainment, sports and travel & hospitality, trust Urban Airship to deliver the mobile moments that matter to their customers and to their business.
@@ -232,7 +235,7 @@ WonderPush is a free push notification platform without obligation or credit car
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/196)*)
 
 - **[Xtremepush](https://xtremepush.com)**
-XtremePush is a leading mobile analytics, engagement and proximity marketing platform. The platform provides deep analytics and messaging functionality allowing brands to analyse and intelligently engage with their app users using Push notifications and In App Messaging. We also provide Geo Fencing and iBeacon technology enabling location based engagement with app users all through one easy to use platform. 
+XtremePush is a leading mobile analytics, engagement and proximity marketing platform. The platform provides deep analytics and messaging functionality allowing brands to analyse and intelligently engage with their app users using Push notifications and In App Messaging. We also provide Geo Fencing and iBeacon technology enabling location based engagement with app users all through one easy to use platform.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/176)*)
 
 ###Analytics providers
@@ -285,11 +288,14 @@ Our Mobile Engagement Platform brings together User Insights, Smart Targeting & 
 Make your product better by measuring actions, instead of page views. Mixpanel gives you the ability to easily measure what people are doing in your app on iOS, Android, and web.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/117)*)
 
-- **[Taplytics](https://taplytics.com)** 
+- **[Swrve](https://swrve.com)**
+Swrve is an integrated mobile marketing platform, used by some of the world's leading app businesses to drive retention, engagement and revenue on mobile. The Swrve platform supports both in-depth analytics and highly sophisticated push campaigns, in addition to rich in-app messaging support and a/b testing of the native mobile environment. As a result the platform is able to deliver more personal, relevant and effective campaigns than previously possible in mobile - and deliver the metrics to match.
+
+- **[Taplytics](https://taplytics.com)**
 Taplytics is a fully integrated mobile A/B testing, push notification, and analytics platform providing the tools you need to optimize your mobile app. Taplytics supports transactional, geo, event and behavioral triggered push notifications, all of which can be a/b tested and optimized for success.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/118)*)
 
-- **[WebEngage](https://webengage.com)** :zap: 
+- **[WebEngage](https://webengage.com)** :zap:
 Multi-channel User Engagement Platform. Communicate via In-App Messages, Push Notifications, Web Messages, Emails, Text Messages in real-time. Understand your users across all channels. Real-time event analytics across all channels and platforms. Identify trends & patterns based on User Interests, Lifecycle, Behavior, Geo-location and much more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/136)*)
 
@@ -303,11 +309,11 @@ The most powerful, yet lightest weight crash reporting solution.
 Crashes are never welcome, but Crittercism can help you identify them as soon as they happen. Crash Reporting monitors both fatal and non-fatal errors so that you can fix issues before they impact users. Pinpoint where and why crashes are happening, who’s affected, and how to fix it.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/170)*)
 
-- **[FlightRecorder](https://www.flightrecorder.io)** 
+- **[FlightRecorder](https://www.flightrecorder.io)**
 With our detailed crash reports you get a great start for crushing those crashes. With our higher packages you can even do more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/120)*)
 
-- **[Hockeyapp](http://hockeyapp.net)** 
+- **[Hockeyapp](http://hockeyapp.net)**
 You don't want your app to crash, but it happens. And when it does, you'd better have fast and precise info about what went wrong and why. With HockeyApp, you'll get meaningful crash reports. Best of all, we regularly assess that HockeyApp has the most reliable crash reporting on the market.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/121)*)
 
@@ -318,19 +324,19 @@ We provide you with a powerful realtime crash reporter, with minimum footprint. 
 ###User Administration providers
 
 - **[Auth0](https://auth0.com)**
-Single sign on services for your apps. Supports OAuth via over 34 different identity providers, passwordless login, and more. 
+Single sign on services for your apps. Supports OAuth via over 34 different identity providers, passwordless login, and more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/222)*)
 
 - **[AuthRocket](https://authrocket.com)**
-Versatile authentication API that allows you to integrate logins, social sign in, and user management into your app. 
+Versatile authentication API that allows you to integrate logins, social sign in, and user management into your app.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/221)*)
 
 - **[Digits](https://get.digits.com)**
-Twitter's mobile-first sign in solution. Allows users to easily sign in and sign up using their phone number, manages the user graph, and free for unlimited users. 
+Twitter's mobile-first sign in solution. Allows users to easily sign in and sign up using their phone number, manages the user graph, and free for unlimited users.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/220)*)
 
 - **[Stormpath](https://stormpath.com)**
-Identity layer for your apps with integrations for popular backend frameworks and user databases. Easily manage user permissions, API keys, and user tokens. 
+Identity layer for your apps with integrations for popular backend frameworks and user databases. Easily manage user permissions, API keys, and user tokens.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/219)*)
 
 ###Backends for Game developers
@@ -370,6 +376,9 @@ PlayFab offers the most complete backend platform built exclusively for live gam
 - **[SmartFoxServer](http://www.smartfoxserver.com)** :zap:
 SmartFoxServer is a comprehensive SDK for rapidly developing multiplayer games and applications with Adobe Flash/Flex/Air, Unity, HTML5, iOS, Windows Phone 8, Android, Java, Windows 8, C++ and more. SmartFoxServer comes with a rich set of features, an impressive documentation set, tens of examples with their source, powerful administration tools and a very active support forum.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/130)*)
+
+- **[Swrve](https://swrve.com)** :zap:
+Swrve is an integrated mobile marketing platform, used by some of the world's leading app businesses to drive retention, engagement and revenue on mobile. The Swrve platform supports both in-depth analytics and highly sophisticated push campaigns, in addition to rich in-app messaging support and a/b testing of the native mobile environment. As a result the platform is able to deliver more personal, relevant and effective campaigns than previously possible in mobile - and deliver the metrics to match.
 
 ###Open-source solutions
 
@@ -413,11 +422,11 @@ LoopBack is an open-source Node.js framework built on top of Express optimized f
 Marlin is a  fast (2000+ requests per second) REST API library built on top of redis server. Its has no specific clients like Android or iOS. But it has got developer API for custom APIs which can be written in Python. ([docs](http://atmb4u.github.io/marlin))
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/133)*)
 
-- **[Piwik](http://piwik.org)** 
+- **[Piwik](http://piwik.org)**
 Piwik is the leading open-source analytics platform that gives you more than just powerful analytics.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/151)*)
 
-- **[Serverless Framework](http://www.serverless.com)** 
+- **[Serverless Framework](http://www.serverless.com)**
 The application framework for building web, mobile and IoT backends exclusively on Amazon Web Services' Lambda and API Gateway.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/206)*)
 
