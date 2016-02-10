@@ -23,6 +23,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - [Backends for Game developers](#backends-for-game-developers)
 - [Open-Source Solutions](#open-source-solutions)
 - [Parse Server providers](#parse-server-providers)
+- [Commerce Solution providers](#commerce-solution-providers)
 
 The real-time providers are marked with :zap: icon.
 
@@ -461,3 +462,8 @@ Cloud provider with support for it's own cloud, aws and azure. Supports running 
 - **[Triton](https://www.joyent.com)**
 Joyents elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/182)*)
+
+### Commerce Solution providers
+
+- **[commercetools](http://www.commercetools.com/)**
+commercetools is a cloud-based platform for commerce applications. Developers can build any kind of frontend application (web, native, etc.) on top of a well-documented REST API and maintain product, customer and order data through an easy-to-use backend GUI.
