@@ -163,6 +163,10 @@ Telerik Backend Services is equipped with a robust set of security measures to e
 ZetaPush is a realtime BaaS providing out of the box authentications and services. You can use noSQL database, file storage, search, mail, sms, etc, everything as a service. ZetaPush provides SDKs for mobile, web and IoT.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/102)*)
 
+- **[Netmera](http://www.netmera.com)**
+Netmera is a Mobile Application Engagement Platform. We offer a series of development tools and app communication features to help your mobile business ignite and soar. Netmera provides different kinds of notifications (push notifications, interactive push notifications), in-app popups, segmentation and targeting, geolocation, engagment analytics, beacon managment, etc.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/107)*)
+
 ###Push notification providers
 
 - **[Accengage](http://www.accengage.com)** :zap:
@@ -205,10 +209,6 @@ Kahuna is a smart, multi-channel communication automation platform. Built origin
 - **[Leanplum](https://www.leanplum.com)** :zap:
 Leanplum offers a complete Mobile Marketing Automation platform that contains personalized messaging, in-app UI optimization, A/B testing, and analytics. This diverse toolkit enables apps to manage every touch point of the customer journey, from onboarding through conversions. In short, the platform is the end-to-end key to brand survival.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/184)*)
-
-- **[Netmera](http://www.netmera.com)**
-Netmera is a Mobile Application Engagement Platform. We offer a series of development tools and app communication features to help your mobile business ignite and soar. Our platform will increase your mobile engagement with SMART campaigns and EASY data analysis features.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/107)*)
 
 - **[OneSignal](https://www.onesignal.com)**
 OneSignal is a completely free push notification delivery service. We fund our product development through products offered to enterprise clients. We provide a suite of APIs and tools for mobile developers to send, schedule, localize, and A/B test their notification campaigns. Our highly reliable service has all the features of Parse and developers can use our Parse data importer to ease their switch.
