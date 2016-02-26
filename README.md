@@ -153,6 +153,10 @@ Backend as a service with a GraphQL API. Reindex offers data storage, authentica
 Backend-as-a-service focused on a powerful interface for creating your database models and providing a JSON REST API.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/100)*)
 
+- **[RapidAPI](https://rapidapi.com)**
+With RapidAPI, you can instantly make your apps more awesome, with no extra effort. You can create a rich back end for your app, with real-time data and notifications and 3rd party APIs integration to give your users the best experience possible
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues)*)
+
 - **[ShepHertz App42](http://api.shephertz.com)**
 ShepHertz provides a Omni-Channel Platform (mobile, social, gaming, TV, IoT, wearables etc.) to build Apps and Games. Deployed in 9 countries, processing 25+ Billion API Calls and trusted by thousands of Indie developers, App Studios and Enterprises across the world, App42 offers 25+ mBaaS modules such as Push Notifications, NoSQL Storage, Cloud Code, User Management, File Upload, Advanced Actionable Analytics, Gaming Backend APIs and much more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/248)*)
