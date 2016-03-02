@@ -270,6 +270,10 @@ WonderPush is a free push notification platform without obligation or credit car
 XtremePush is a leading mobile analytics, engagement and proximity marketing platform. The platform provides deep analytics and messaging functionality allowing brands to analyse and intelligently engage with their app users using Push notifications and In App Messaging. We also provide Geo Fencing and iBeacon technology enabling location based engagement with app users all through one easy to use platform.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/176)*)
 
+- **[Device Push Notifications](http://www.devicepush.com/)**
+Device Push Notifications opens the doors to all developers who want to implement notifications in their apps. Device Push Notifications is a service that consists of SDKs, API, and a control panel to manage notifications without having to deal with the different platforms, unifying all the code. With Device Push Notifications, you will save much time and no need to worry about storing large token, Device Push Notifications will do it all for you. We know that push notifications are not everything when it comes to having a communication with mobile applications, so our effort not only be focused on this event, but we will go activating improvements which will allow the implementation kinds of events such as music, interactive maps, videos, or surveys, among other...
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/273)*)
+
 ###Analytics providers
 
 - **[Amplitude](https://amplitude.com)** :zap:
