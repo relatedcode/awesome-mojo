@@ -472,6 +472,10 @@ Piwik is the leading open-source analytics platform that gives you more than jus
 The application framework for building web, mobile and IoT backends exclusively on Amazon Web Services' Lambda and API Gateway.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/206)*)
 
+- **[Strapi](http://strapi.io/)**
+Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code. 
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/276)*)
+
 ###Parse Server hosting providers
 
 - **[Nimble Parse](http://nimbleparse.com)**
