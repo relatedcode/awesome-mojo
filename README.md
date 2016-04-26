@@ -75,8 +75,8 @@ Apstrata is a powerful back-end as a Service that provides multiple APIs coverin
 AWS Mobile Hub lets you easily add and configure features for your mobile apps, including user authentication, data storage, backend logic, push notifications, content delivery, and analytics. After you build your app, AWS Mobile Hub gives you easy access to testing on real devices, as well as analytics dashboards to track usage of your app.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/89)*)
 
-- **[back{4}app](https://back4app.com)**
-Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and quick migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
+- **[back{4}app](https://back4app.com)** :zap:
+Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and 5 minutes migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/271)*)
 
 - **[Backand](http://backand.com)** :zap:
@@ -192,6 +192,10 @@ Amazon Simple Notification Service (SNS) is a fast, flexible, fully managed publ
 - **[Appboy](https://www.appboy.com)**
 Appboy is an industry-leading customer relationship suite for mobile marketers. Thousands of global brands use Appboy's robust audience segmentation and advanced multi-channel messaging system to create highly personalized lifecycle marketing campaigns in every relevant channel -- from push, in-app, and web to email, wearables, and emerging technologies -- across billions of user profiles worldwide to better engage, retain, and monetize their customers.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/103)*)
+
+- **[back{4}app](https://back4app.com)** :zap:
+Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and 5 minutes migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/271)*)
 
 - **[Batch](https://batch.com)**
 Batch is a push notification platform built around predictive analytics and smart segmentation algorithms. With Batch, you can efficiently send transactional (one to one) and marketing notifications (one to many) while leveraging our other modules to run a successful retention strategy.
@@ -364,6 +368,10 @@ Single sign on services for your apps. Supports OAuth via over 34 different iden
 Versatile authentication API that allows you to integrate logins, social sign in, and user management into your app.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/221)*)
 
+- **[back{4}app](https://back4app.com)** :zap:
+Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and 5 minutes migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/271)*)
+
 - **[Digits](https://get.digits.com)**
 Twitter's mobile-first sign in solution. Allows users to easily sign in and sign up using their phone number, manages the user graph, and free for unlimited users.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/220)*)
@@ -389,6 +397,10 @@ AppWarp is a powerful, yet simple platform for developing multiplayer real-time 
 - **[brainCloud](http://getbraincloud.com)**
 brainCloud is a ready-made backend for the development of feature-rich mobile+social games and gamified apps. brainCloud features include cloud data, cloud code, push notifications, social integration, multiplayer support, matchmaking, gamification, in-app purchases, pricing controls, promotions, segments, analytics, external authentication, shared accounts, dataStream architecture, scheduled jobs and more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/125)*)
+
+- **[back{4}app](https://back4app.com)** :zap:
+Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and 5 minutes migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/271)*)
 
 - **[Gamedonia](http://www.gamedonia.com)** :zap:
 Gamedonia offers a flexible backend platform to build, launch and run online games. Build with our server-side tools, featuring Database, Server Code, Multiplayer Networking, User Management, Purchases, Push, and more. Gamedonia’s solutions are cross-platform and compatible with games for mobile and PC.
@@ -431,6 +443,10 @@ BaasBox provides a web administrative console, user management API and signup wi
 - **[Couchbase Mobile](http://developer.couchbase.com/mobile)** :zap:
 A full-stack open-source NoSQL database. It includes an embedded database (for iOS, OS X, tvOS, watchOS, Android, Linux, Windows, Unity, Xamarin, PhoneGap/Cordova, and HTML5), a database server, multi-master replication with automatic and custom conflict resolution, fine-grained user/role based security, pluggable authentication, web-hooks, REST APIs, and Stream/Batch APIs. Apps using Couchbase Mobile work offline with data being automatically synchronized between the embedded databases and database server. It is designed to be easily integrated with other systems.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/43)*)
+
+- **[back{4}app](https://back4app.com)** :zap:
+Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and 5 minutes migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/271)*)
 
 - **[DreamFactory](https://dreamfactory.com)**
 DreamFactory is an open source REST API automation platform for mobile, IoT, and web applications. Built on the Laravel framework, DreamFactory automatically creates REST APIs for SQL, NoSQL, file storage, email, and push notifications. Connect to your data sources, script business logic with Javascript or PHP, secure your APIs with built-in access control, JWT, OAuth, and AD/LDAP, and get started with sample apps for Objective-C, Swift, Android, Angular 1 and 2, React, Javascript, Titanium, and .NET.
@@ -478,6 +494,10 @@ Strapi is an open-source Node.js rich framework for building applications and se
 
 ###Parse Server hosting providers
 
+- **[back{4}app](https://back4app.com)** :zap:
+Parse lovers can keep using Parse for new and existent apps! back{4}app is the hub for backend and APIs. It empowers the developers with visual tools to build and host APIs for mobile, web and IoT apps. The platform uses Parse open source framework to make it happen and let the developers to continue using powerful Parse features such as SDKs, Cloud Code, Push Notifications and more. The solution allows a complete and 5 minutes migration from Parse through a wizard tool. Once we use Parse Server to generate the backend, it requires almost no changes in the frontend after the migration.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/271)*)
+
 - **[Nimble Parse](http://nimbleparse.com)**
 We at Nimblestack built and launched a 100% Parse compatible API in less than one week. Current offer includes Object creation & query, User management, and Cloud Code. Push notifications and background jobs are in the pipeline.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/252)*)
@@ -515,6 +535,7 @@ AWS is Amazon's cloud infrastructure service. It supports running Node.js apps b
 - **[Azure](https://azure.microsoft.com)**
 Microsoft cloud service. Supports both Node.js and Mongo via MongoLab.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/180)*)
+
 
 - **[Clever Cloud](https://www.clever-cloud.com)**
 Clever Cloud is a Europe-based PaaS company with bulletproof infrastructure, automatic scaling, fair pricing and an integration with Github for app deployment and hosting. Clever Cloud comes with a Node.js runtime and a native MongoDB add-on to run Parse.
