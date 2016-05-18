@@ -68,7 +68,7 @@ AppWooDoo offers a simple yet powerful real-time database and push notifications
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/28)*)
 
 - **[Apstrata](http://www.apstrata.com)**
-Apstrata is a powerful back-end as a Service that provides multiple APIs covering: orchestration (JavaScript server-side scripting), No-SQL persistance, messaging (push notifications, email), social networks integration (Facebook, Twitter, Google+, etc.), Identity and authorizations Management. You can expose your own business logic as REST APIs in a snap. Apstrata can scale as much as your application requires it. Last but not least, it is simple to use, provides an extensive documentation and the support and forum teams are very reactive.
+Apstrata is a powerful back-end as a Service that provides multiple APIs covering: orchestration (JavaScript server-side scripting), No-SQL persistence, messaging (push notifications, email), social networks integration (Facebook, Twitter, Google+, etc.), Identity and authorizations Management. You can expose your own business logic as REST APIs in a snap. Apstrata can scale as much as your application requires it. Last but not least, it is simple to use, provides an extensive documentation and the support and forum teams are very reactive.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/171)*)
 
 - **[AWS Mobile Hub](https://aws.amazon.com/mobile)**
@@ -211,7 +211,7 @@ Get delivery confirmation with real time status for each message sent and build 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/106)*)
 
 - **[Growth Push](http://en.growthpush.com)**
-Growth Push is one of the biggest push notification platoform in Japan. Growth Push provides Push Notification's analyses and delivery services for Applications developers. It not only optimizes the effectiveness of Push Notifications.
+Growth Push is one of the biggest push notification platform in Japan. Growth Push provides Push Notification's analyses and delivery services for Applications developers. It not only optimizes the effectiveness of Push Notifications.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/189)*)
 
 - **[Kahuna](https://www.kahuna.com)**
@@ -235,7 +235,7 @@ PushBots is a scalable push notification system for mobile applications that hel
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/108)*)
 
 - **[PushChamp](https://www.pushchamp.com)** :zap:
-PushChamp is a cross-platform communication solution, which powers developers and marketeers to engage with their users and track the message deliveribility real-time. Currently supported platforms are mobile push notification (Android, iOS, Windows), browser push notification (Chrome, Firefox, Safari), Email and SMS. Some of our features are SMS fallback(in case of push fails), real-time analytics, user profiling and reusable templates.
+PushChamp is a cross-platform communication solution, which powers developers and marketeers to engage with their users and track the message deliverability real-time. Currently supported platforms are mobile push notification (Android, iOS, Windows), browser push notification (Chrome, Firefox, Safari), Email and SMS. Some of our features are SMS fallback(in case of push fails), real-time analytics, user profiling and reusable templates.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/269)*)
 
 - **[Pushwoosh](https://www.pushwoosh.com)**
@@ -247,7 +247,7 @@ Pushy is an Android push notifications service up to 2x times faster than the co
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/134)*)
 
 - **[RadiumOne](https://radiumone.com/connect)**
-Connect is a free push notification and in-app analytics tool from RadiumOne. It provides a full suite of analytics tools and is ideal for targetting Push Notifications based on in-app user behavior, as well as coordinating Push with advertising through the integrated RadiumOne Data Management Platform (DMP) and programatic media-buying tools. Messages can be targetted to users based on tagging, segmentation and geolocation.
+Connect is a free push notification and in-app analytics tool from RadiumOne. It provides a full suite of analytics tools and is ideal for targeting Push Notifications based on in-app user behavior, as well as coordinating Push with advertising through the integrated RadiumOne Data Management Platform (DMP) and programatic media-buying tools. Messages can be targetted to users based on tagging, segmentation and geolocation.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/223)*)
 
 - **[Urban Airship](https://www.urbanairship.com)**
@@ -297,7 +297,7 @@ CleverTap lets you do app analytics at incredible speeds, and engage with your u
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/112)*)
 
 - **[Countly](https://count.ly)**
-Countly is world's leading open source, enteprise mobile and web analytics & marketing platform. Countly is provided in several editions, including Community Edition with a free-to-use non-commercial license, Cloud (SaaS) Edition and self-hosted or Enterprise Edition with SLA coverage.
+Countly is world's leading open source, enterprise mobile and web analytics & marketing platform. Countly is provided in several editions, including Community Edition with a free-to-use non-commercial license, Cloud (SaaS) Edition and self-hosted or Enterprise Edition with SLA coverage.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/113)*)
 
 - **[Flurry Analytics](https://developer.yahoo.com/analytics)** :zap:
@@ -445,7 +445,7 @@ hook is a backend as a service written in PHP. It was designed by real needs of 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/178)*)
 
 - **[Kinto](https://github.com/Kinto/kinto)**
-Kinto is a lightweight JSON storage service with synchronisation and sharing abilities. It is meant to be easy to use and easy to self-host. Kinto is used at Mozilla and released under the Apache v2 licence.
+Kinto is a lightweight JSON storage service with synchronisation and sharing abilities. It is meant to be easy to use and easy to self-host. Kinto is used at Mozilla and released under the Apache v2 license.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/90)*)
 
 - **[Kuzzle](http://kuzzle.io)** :zap:
@@ -495,7 +495,7 @@ ParseGround takes care for the server management, so you can focus on your apps.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/253)*)
 
 - **[ParseHosting](http://parsehosting.net)**
-We decided to launch ParseHosting in order to support all our exsiting clients and other developers who rely on the service. We are a team of expert iOS and Android app developers who have been using Parse to support our client’s projects for many years.
+We decided to launch ParseHosting in order to support all our existing clients and other developers who rely on the service. We are a team of expert iOS and Android app developers who have been using Parse to support our client’s projects for many years.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/213)*)
 
 - **[RunParse](http://www.runparse.com)**
@@ -509,7 +509,7 @@ We will provide a new way to host your Parse application. You will be independen
 ###Parse Server infrastructure providers
 
 - **[AWS](https://aws.amazon.com)**
-AWS is Amazon's cloud infrastructure service. It supports running Node.js apps both on VMs and docker container as well as running Mongo and aws own DynamoDB.
+AWS is Amazon's cloud infrastructure service. It supports running Node.js apps both on VMs and docker container as well as running Mongo and AWS's own DynamoDB.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/179)*)
 
 - **[Azure](https://azure.microsoft.com)**
@@ -541,9 +541,9 @@ ObjectRocket is a leading MongoDB-as-a-service provider specializing in extremel
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/267)*)
 
 - **[RAX](https://www.rackspace.com)**
-Cloud provider with support for it's own cloud, aws and azure. Supports running Node.js in both vms and docker containers.
+Cloud provider with support for it's own cloud, aws and azure. Supports running Node.js in both VMs and docker containers.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/181)*)
 
 - **[Triton](https://www.joyent.com)**
-Joyents elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
+Joyent's elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/182)*)
