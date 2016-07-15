@@ -1,4 +1,4 @@
-[![I am available for hire](http://relatedcode.com/github/header10.png)](http://relatedcode.com)
+[![FirebaseChat for iOS](http://relatedcode.com/github/header11.png)](http://github.com/relatedcode/FirebaseChat)
 
 ##Parse alternatives
 
