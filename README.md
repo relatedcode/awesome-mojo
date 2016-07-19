@@ -119,7 +119,7 @@ Cosmic JS is a cloud-hosted content platform that makes it easy to add dynamic c
 FatFractal lets you get started quickly with schema-less collection and object creation, and builds on that with advanced features including: local development; advanced query language; bi-directional datagraph traversal; declarative permissions; push notifications; event-, endpoint- and schedule-triggered backend code; pluggable authentication; and much more. Offers native iOS, Android/Java, and HTML5/JavaScript SDKs.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/96)*)
 
-- **[Firebase](https://www.firebase.com)** :zap:
+- **[Firebase](https://firebase.google.com)** :zap:
 You can store & sync data with Firebase NoSQL cloud database. Data is stored as JSON, synced to all connected clients in realtime, and available when your app goes offline. You can also authenticate users with email & password, Facebook, Twitter, GitHub, Google, anonymous auth, or easily integrate with your existing authentication system.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/37)*)
 
@@ -300,7 +300,7 @@ CleverTap lets you do app analytics at incredible speeds, and engage with your u
 Countly is world's leading open source, enterprise mobile and web analytics & marketing platform. Countly is provided in several editions, including Community Edition with a free-to-use non-commercial license, Cloud (SaaS) Edition and self-hosted or Enterprise Edition with SLA coverage.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/113)*)
 
-- **[Dynatrace](http://www.dynatrace.com/en/ruxit/)** :zap:
+- **[Dynatrace](http://www.dynatrace.com/en/ruxit)** :zap:
 Dynatrace is the leading enterprise APM solution according to Gartner. Dynatrace covers full stack monitoring of technology stacks, real user monitoring of mobile apps and web, monitoring of backend services and infrastructure.
 
 - **[Flurry Analytics](https://developer.yahoo.com/analytics)** :zap:
@@ -471,7 +471,7 @@ Piwik is the leading open-source analytics platform that gives you more than jus
 The application framework for building web, mobile and IoT backends exclusively on Amazon Web Services' Lambda and API Gateway.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/206)*)
 
-- **[Strapi](http://strapi.io/)**
+- **[Strapi](http://strapi.io)**
 Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code. 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/276)*)
 
