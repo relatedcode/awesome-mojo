@@ -493,10 +493,6 @@ Managed Parse Server. Build your perfect app on any platform without worrying ab
 Don’t panic. We migrate your Parse app and host your backend. Migrate to a server under your control; we do maintenance and upgrade so you wouldn't have to. We host. We migrate. We support.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/256)*)
 
-- **[ParseHosting](http://parsehosting.net)**
-We decided to launch ParseHosting in order to support all our existing clients and other developers who rely on the service. We are a team of expert iOS and Android app developers who have been using Parse to support our client’s projects for many years.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/213)*)
-
 - **[RunParse](http://www.runparse.com)**
 We can help you migrate and host your app to minimize downtime and disruption.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/257)*)
