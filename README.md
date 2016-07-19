@@ -381,10 +381,6 @@ Tapglue provides a social layer including user-management for app developers. Yo
 
 ###Backends for Game developers
 
-- **[Applicasa](http://applicasa.com)**
-A cloud-based backend solution that lets you store pictures, videos, or any other type of downloadable content. In addition, features like user registration, push notifications, and Facebook integration are all made available to you.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/123)*)
-
 - **[AppWarp](http://appwarp.shephertz.com)** :zap:
 AppWarp is a powerful, yet simple platform for developing multiplayer real-time games and applications. We provide awesome features to developers that enable you to build seemingly complex applications with little effort.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/124)*)
