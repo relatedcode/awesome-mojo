@@ -300,6 +300,9 @@ CleverTap lets you do app analytics at incredible speeds, and engage with your u
 Countly is world's leading open source, enterprise mobile and web analytics & marketing platform. Countly is provided in several editions, including Community Edition with a free-to-use non-commercial license, Cloud (SaaS) Edition and self-hosted or Enterprise Edition with SLA coverage.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/113)*)
 
+- **[Dynatrace](http://www.dynatrace.com/en/ruxit/)** :zap:
+Dynatrace is the leading enterprise APM solution according to Gartner. Dynatrace covers full stack monitoring of technology stacks, real user monitoring of mobile apps and web, monitoring of backend services and infrastructure.
+
 - **[Flurry Analytics](https://developer.yahoo.com/analytics)** :zap:
 Measure, track and analyze app performance, user acquisition and activity with Flurry Analytics.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/114)*)
