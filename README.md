@@ -493,17 +493,9 @@ Managed Parse Server. Build your perfect app on any platform without worrying ab
 Don’t panic. We migrate your Parse app and host your backend. Migrate to a server under your control; we do maintenance and upgrade so you wouldn't have to. We host. We migrate. We support.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/256)*)
 
-- **[RunParse](http://www.runparse.com)**
-We can help you migrate and host your app to minimize downtime and disruption.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/257)*)
-
 - **[SashiDo](http://www.sashido.io)**
 SashiDo (formerly ParseGround) takes care for the server management, so you can focus on your apps. As easy as before. We’ll migrate, host & support your Parse apps. Free migration, 24/7 support, Multi-Geo coverage, Dashboard / Metrics, Automated Scaling, Free SSL. Simple and flexible pricing, starts from $4.95/mo. Based on AWS Technologies.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/253)*)
-
-- **[YourParse](http://yourparse.com)**
-We will provide a new way to host your Parse application. You will be independent from cloud-providers, and your Parse apps will be shining like never before. We are a small group of IT engineers, who also stuck in Parse. We decided to create an easy way to create your own parse server, so everyone can enjoy further all the advantages, what Parse provide(d), with reliable pricing.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/258)*)
 
 ###Parse Server infrastructure providers
 
