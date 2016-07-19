@@ -300,6 +300,9 @@ CleverTap lets you do app analytics at incredible speeds, and engage with your u
 Countly is world's leading open source, enterprise mobile and web analytics & marketing platform. Countly is provided in several editions, including Community Edition with a free-to-use non-commercial license, Cloud (SaaS) Edition and self-hosted or Enterprise Edition with SLA coverage.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/113)*)
 
+- **[Dynatrace](http://www.dynatrace.com/en/ruxit/)** :zap:
+Dynatrace is the leading enterprise APM solution according to Gartner. Dynatrace covers full stack monitoring of technology stacks, real user monitoring of mobile apps and web, monitoring of backend services and infrastructure.
+
 - **[Flurry Analytics](https://developer.yahoo.com/analytics)** :zap:
 Measure, track and analyze app performance, user acquisition and activity with Flurry Analytics.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/114)*)
@@ -341,6 +344,9 @@ The most powerful, yet lightest weight crash reporting solution.
 - **[Crittercism](http://www.crittercism.com)**
 Crashes are never welcome, but Crittercism can help you identify them as soon as they happen. Crash Reporting monitors both fatal and non-fatal errors so that you can fix issues before they impact users. Pinpoint where and why crashes are happening, who’s affected, and how to fix it.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/170)*)
+
+- **[Dynatrace](http://www.dynatrace.com/en/ruxit/)** :zap:
+Dynatrace is the leading enterprise APM solution according to Gartner. Dynatrace covers full stack monitoring of technology stacks, crash reporting of mobile apps, monitoring of backend services and infrastructure.
 
 - **[FlightRecorder](https://www.flightrecorder.io)**
 With our detailed crash reports you get a great start for crushing those crashes. With our higher packages you can even do more.
