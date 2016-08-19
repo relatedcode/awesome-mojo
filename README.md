@@ -303,6 +303,9 @@ Countly is world's leading open source, enterprise mobile and web analytics & ma
 - **[Dynatrace](http://www.dynatrace.com/en/ruxit)** :zap:
 Dynatrace is the leading enterprise APM solution according to Gartner. Dynatrace covers full stack monitoring of technology stacks, real user monitoring of mobile apps and web, monitoring of backend services and infrastructure.
 
+- **[Twitter Fabric](https://get.fabric.io)** :zap:
+Helps developers track crashes or user behavior within the apps and keeps all these critical data in a single, intuitive dashboard. Furthermore a fully fledged SDK that allows integrating major cross cutting concern providers (e.g. payment - Stripe, integration - Amazon Cognito etc.).
+
 - **[Flurry Analytics](https://developer.yahoo.com/analytics)** :zap:
 Measure, track and analyze app performance, user acquisition and activity with Flurry Analytics.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/114)*)
