@@ -158,6 +158,10 @@ PubNub powers low-latency messaging across any device, any platform, anywhere in
 RapidAPI is a BaaS providing many different features and APIs. User can use visual blocks to create the backend without writing a single line of code. You can do basic data storage, send push notifications, emails and text messages even integrate with Social APIs like Facebook, Google, Twitter and LinkedIn. 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/261)*)
 
+- **[Realm.io](https://www.realm.io)** :zap:
+The Realm Mobile Platform delivers automatic realtime data sync, offline-first experiences, and event handling with less than 10 lines of code. The client-side component, Realm Mobile Database, is cross-platform, supporting both iOS and Android, and object-based, meaning no JSON, or ORM. Use the server-side Realm Object Server on any cloud or on-premises, with the ability to connect you existing infrastructure and APIs to your mobile devices. 
+(*[discussion](https://github.com/realm/realm-mobile-platform/issues/new)*)
+
 - **[Reindex](https://www.reindex.io)**
 Backend as a service with a GraphQL API. Reindex offers data storage, authentication, permissions, hooks for integrating with third-party services and custom code, and an open source SDK.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/99)*)
