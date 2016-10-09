@@ -354,10 +354,6 @@ The most powerful, yet lightest weight crash reporting solution.
 Crashes are never welcome, but Crittercism can help you identify them as soon as they happen. Crash Reporting monitors both fatal and non-fatal errors so that you can fix issues before they impact users. Pinpoint where and why crashes are happening, who’s affected, and how to fix it.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/170)*)
 
-- **[FlightRecorder](https://www.flightrecorder.io)**
-With our detailed crash reports you get a great start for crushing those crashes. With our higher packages you can even do more.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/120)*)
-
 - **[Hockeyapp](http://hockeyapp.net)**
 You don't want your app to crash, but it happens. And when it does, you'd better have fast and precise info about what went wrong and why. With HockeyApp, you'll get meaningful crash reports. Best of all, we regularly assess that HockeyApp has the most reliable crash reporting on the market.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/121)*)
