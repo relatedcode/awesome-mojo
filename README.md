@@ -1,4 +1,4 @@
-[![FirebaseChat for iOS](http://relatedcode.com/github/header11.png)](http://github.com/relatedcode/FirebaseChat)
+[![FirebaseChat for iOS](http://relatedcode.com/github/header12.png)](http://github.com/relatedcode/Messenger)
 
 ##Parse alternatives
 
