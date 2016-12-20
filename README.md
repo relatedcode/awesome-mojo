@@ -143,7 +143,7 @@ Kumulos is built for mobile app development businesses and agencies to allow you
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/230)*)
 
 - **[Microsoft Azure Mobile App Service](https://azure.microsoft.com/en-us/services/app-service/mobile)**
-This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac.
+This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac. You can migrate your apps as is by running [Parse Server on App Service](https://azure.microsoft.com/en-us/blog/azure-welcomes-parse-developers/).
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/98)*)
 
 - **[MoBack](https://www.moback.com)** :zap:
