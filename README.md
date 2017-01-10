@@ -7,6 +7,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 ###What features are we looking for?
 - Data Storage
 - Push Notifications
+- Messaging
 - Usage Analytics
 - Dashboard
 - Social Integration
@@ -19,6 +20,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 ###Index
 - [General purpose providers](#general-purpose-providers)
 - [Push notification providers](#push-notification-providers)
+- [Messaging providers](#messaging-providers)
 - [Analytics providers](#analytics-providers)
 - [Crash Report providers](#crash-report-providers)
 - [User Administration providers](#user-administration-providers)
@@ -275,6 +277,12 @@ WonderPush is a free push notification platform without obligation or credit car
 - **[Xtremepush](https://xtremepush.com)**
 XtremePush is a leading mobile analytics, engagement and proximity marketing platform. The platform provides deep analytics and messaging functionality allowing brands to analyse and intelligently engage with their app users using Push notifications and In App Messaging. We also provide Geo Fencing and iBeacon technology enabling location based engagement with app users all through one easy to use platform.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/176)*)
+
+###Messaging providers
+
+- **[Magnet Message](https://developer.magnet.com)** :zap:
+One stop shop for real-time mobile interactions – notifications, in-app chat, private and group channels, collaboration, surveys, ratings and feedback. Cross platform, native support for iOS and Android. Rich one-to-one and one-to-many interactions that keep users coming back. See the [Parse Push Migration Guide](https://developer.magnet.com/articles/migrating-from-parse) for a tutorial demonstrating how to migrate from Parse Push to Magnet Message.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/225)*)
 
 ###Analytics providers
 
