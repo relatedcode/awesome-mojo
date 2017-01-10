@@ -545,3 +545,9 @@ Cloud provider with support for it's own cloud, aws and azure. Supports running 
 - **[Triton](https://www.joyent.com)**
 Joyent's elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/182)*)
+
+- **[ParseHosting](http://parsehosting.net)**
+ParseHosting will be offering self/managed Parse Server hosting together with supplementary services to support the missing Parse Server features, such as PUSH
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/213)*)
+
+
