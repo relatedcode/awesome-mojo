@@ -413,7 +413,7 @@ Heroic's API makes it easy for developers to rapidly add social and competitive 
 Easily Add Multiplayer to Your Games, Run Them in the Global Photon Cloud or Host Your Own Photon Servers. Fast, reliable, scalable. Made for anyone: indies, professional studios and AAA productions.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/128)*)
 
-- **[PlayFab](https://playfab.com)**
+- **[PlayFab](https://playfab.com/parse/)**
 PlayFab offers the most complete backend platform built exclusively for live games. Core services include player management, content management, in-game commerce, in-game marketing, multiplayer, basic reporting, and more. The Add-On Marketplace provides pre-integrated services from other companies, such as community tools, advanced analytics, attribution tracking, in-game advertising, and more. Best of all, it’s free for unlimited players — pay only for premium support and enterprise features. Start integrating with your mobile, PC, or console game today. You bring the fun, we'll do the rest.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/129)*)
 
