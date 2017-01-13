@@ -488,6 +488,10 @@ Strapi is an open-source Node.js rich framework for building applications and se
 
 ###Parse Server hosting providers
 
+- **[Buddy Platform's 'Parse on Buddy'](http://buddy.com/parse)**
+Same price as current Parse! Includes fully scalable, highly-available hosting with full regular backups, monitoring, etc. for all apps. Enterprise-level [status](http://status.buddy.com) with great support & continued new development for migration and beyond. [Buddy](https://buddy.com) is a public company with international offices, and has been serving the mobile-backend-as-a-service space since 2011.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/252)*)
+
 - **[Nimble Parse](http://nimbleparse.com)**
 We at Nimblestack built and launched a 100% Parse compatible API in less than one week. Current offer includes Object creation & query, User management, and Cloud Code. Push notifications and background jobs are in the pipeline.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/252)*)
