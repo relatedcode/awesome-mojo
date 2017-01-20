@@ -405,7 +405,7 @@ Gamedonia offers a flexible backend platform to build, launch and run online gam
 GameSparks is the leading Backend as a Service platform for games developers, helping to build all of the server-side features of their game, as well as tuning and managing their game once it has launched. Typical server-side features include leaderboards, multiplayer, notifications and player save data. The GameSparks platform provides developers with a single integrated tool to build these server components, boosting player retention and monetization without ever having to set up and run a server.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/126)*)
 
-- **[Heroic Labs](https://heroiclabs.com)**
+- **[Heroic Labs](https://saas.heroiclabs.com)**
 Heroic's API makes it easy for developers to rapidly add social and competitive features to apps/games without the need for a server backend. The API is designed and optimised for high volume mobile apps/games, and readily provides all the necessary features without requiring additional code or configuration on top of basic building blocks.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/127)*)
 
@@ -469,6 +469,10 @@ LoopBack is an open-source Node.js framework built on top of Express optimized f
 - **[Marlin](https://github.com/atmb4u/marlin)** :zap:
 Marlin is a fast (2000+ requests per second) REST API library built on top of redis server. Its has no specific clients like Android or iOS. But it has got developer API for custom APIs which can be written in Python. ([docs](http://atmb4u.github.io/marlin))
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/133)*)
+
+- **[Nakama](https://github.com/heroiclabs/nakama/)** :zap:
+Heroic Labs builds Nakama; an open-source distributed social and realtime server for games and apps. It includes a large set of services for users, data storage, and realtime client/server communication; as well as specialized APIs like realtime multiplayer, groups/guilds, and chat. Nakama works with any kind of games device including consoles and VR headsets; and across games platforms like iOS, Android, and Windows Phone.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/297)*)
 
 - **[Parse Server](https://github.com/ParsePlatform/parse-server)**
 On the same day that Facebook announced they were shutting down Parse, they also released an open-source replacement called Parse Server. Jobs, Analytics are notably not implemented.
