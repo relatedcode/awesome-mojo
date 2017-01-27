@@ -490,6 +490,9 @@ The application framework for building web, mobile and IoT backends exclusively 
 Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code. 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/276)*)
 
+- **[Deployd](http://deployd.com)** :zap:
+Deployd is a tool that makes building APIs simple by providing important ready-made functionality out of the box that meet the demands of complex applications.
+
 ###Parse Server hosting providers
 
 - **[Buddy Platform's 'Parse on Buddy'](http://buddy.com/parse)**
