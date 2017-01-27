@@ -189,6 +189,9 @@ Telerik Backend Services is equipped with a robust set of security measures to e
 ZetaPush is a realtime BaaS providing out of the box authentications and services. You can use noSQL database, file storage, search, mail, sms, etc, everything as a service. ZetaPush provides SDKs for mobile, web and IoT.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/102)*)
 
+- **[Simperium](https://simperium.com)** :zap:
+Simperium is a service for developers to move data everywhere it's needed, instantly and automatically. Manages persistence, security, conflicts, scaling, versioning, and backups. With full offline support.
+
 ###Push notification providers
 
 - **[Accengage](http://www.accengage.com)** :zap:
