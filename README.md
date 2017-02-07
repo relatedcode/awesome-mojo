@@ -91,6 +91,9 @@ Backbeam offers many services that you will use to build your web and mobile app
 A system of integrated, general purpose, mobile cloud services with native and REST APIs. Such as: User Management, Data Persistence, Geolocation, Media Streaming, Publish/Subscribe Messaging, Push Notifications, Custom Business Logic, Analytics, Mobile Code Generation.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/31)*)
 
+- **[Baqend](https://www.baqend.com)** :zap:
+Baqend develops a backend-as-a-service, to help programmers build instantly-loading websites through a novel caching algorithm.  With its serverless approach, Baqend is ideal for building fast and scalable applications in less time. To this end, Baqend provides APIs for common enterprise features including data and file storage, user authentication, SSL hosting, database queries, Node.js code, push notifications, schema validation, full-text search, ACID transactions and powerful real-time queries. The unique performance comes out of the box as Baqend leverages seminal technology from web performance research in its APIs and fully supports HTTP/2, SSL and consistent web caching. Baqend is made for building websites and hybrid apps and comes with easy-to-use starter kits for Angular1 and 2, React, Ionic and Bootstrap.
+
 - **[Buddy](https://buddy.com)**
 A lightweight, fast and flexible platform for collecting and processing IoT data. Also offers a mobile-focused set of APIs such as Users, Checkins, Push Notifications and Metrics.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/32)*)
