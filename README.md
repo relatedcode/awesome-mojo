@@ -150,6 +150,9 @@ This service comes close to Parse with its online/offline data syncing, user aut
 MoBack is a mobile as a back end service that specializes in push notifications, data storage, REST API, analytics, user management, iOS, .Net, SDK, Android, Unity, Javascript, and Custom code.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/183)*)
 
+- **[Pusher](https://pusher.com/)** :zap:
+Pusher is a hosted platform that lets you quickly, easily, and securely build real-time features in your web & mobile apps.  (*[discussion](#)*)
+
 - **[PubNub](https://www.pubnub.com)** :zap:
 PubNub powers low-latency messaging across any device, any platform, anywhere in the world. Use our simple APIs and SDKs to connect, build, and scale realtime applications on the PubNub Data Stream Network. Focus on shipping a great product instead of building and managing expensive data streaming infrastructure.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/40)*)
