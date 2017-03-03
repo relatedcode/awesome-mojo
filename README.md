@@ -17,6 +17,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - Crash Report
 
 ###Index
+- [Parse Server hosting providers](#parse-server-hosting-providers)
 - [General purpose providers](#general-purpose-providers)
 - [Push notification providers](#push-notification-providers)
 - [Analytics providers](#analytics-providers)
@@ -28,6 +29,26 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - [Parse Server infrastructure providers](#parse-server-infrastructure-providers)
 
 The real-time providers are marked with :zap: icon.
+
+###Parse Server hosting providers
+
+- **[NodeChef Parse Server](https://www.nodechef.com/parse-server)**
+Managed Parse Server. Build your perfect app on any platform without worrying about backend management.
+
+- **[OURSKY Parse Hosting](http://parse-hosting.oursky.com/)**
+Don’t panic. We migrate your Parse app and host your backend. Migrate to a server under your control; we do maintenance and upgrade so you wouldn't have to. We host. We migrate. We support.
+
+- **[ParseGround](http://www.parseground.com/)**
+ParseGround takes care for the server management, so you can focus on your apps. As easy as before. We’ll migrate, host & support your Parse apps. Free migration, 24/7 support, Multi-Geo coverage, Dashboard / Metrics, Automated Scaling, Free SSL. It starts from $4.95/mo. Better than free. 
+
+- **[ParseHosting](http://parsehosting.net/)**
+We decided to launch ParseHosting in order to support all our exsiting clients and other developers who rely on the service. We are a team of expert iOS and Android app developers who have been using Parse to support our client’s projects for many years.
+
+- **[RUNPARSE](http://www.runparse.com/)**
+We can help you migrate and host your app to minimize downtime and disruption.
+
+- **[YourParse](http://yourparse.com/)**
+We will provide a new way to host your Parse application. You will be independent from cloud-providers, and your Parse apps will be shining like never before. We are a small group of IT engineers, who also stuck in Parse. We decided to create an easy way to create your own parse server, so everyone can enjoy further all the advantages, what Parse provide(d), with reliable pricing. 
 
 ###General purpose providers
 
