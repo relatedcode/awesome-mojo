@@ -115,6 +115,11 @@ Instantly embed mobile services such as: push notification, geolocation, social,
 Cosmic JS is a cloud-hosted content platform that makes it easy to add dynamic content to any website or app. Cosmic JS takes an API-first approach to content management, allowing your content to be available on any website or application and across devices regardless of programming language. This allows for faster development cycles, faster content management and gives you more time to spend on building great products.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/172)*)
 
+
+- **[DevLess](https://devless.io)**
+DevLess is a platform that allows you to easily build robust backends for your web and mobile applications by piecing together plug and play backend modules. DevLess is open source, thus is infinitely customizable, and you’ll never be locked into a proprietary system. We are backed by a community of developers who contribute to the project and provide a high level of support to the project.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/301)*)
+
 - **[FatFractal](http://fatfractal.com)**
 FatFractal lets you get started quickly with schema-less collection and object creation, and builds on that with advanced features including: local development; advanced query language; bi-directional datagraph traversal; declarative permissions; push notifications; event-, endpoint- and schedule-triggered backend code; pluggable authentication; and much more. Offers native iOS, Android/Java, and HTML5/JavaScript SDKs.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/96)*)
