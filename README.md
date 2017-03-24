@@ -197,7 +197,7 @@ Telerik Backend Services is equipped with a robust set of security measures to e
 ZetaPush is a realtime BaaS providing out of the box authentications and services. You can use noSQL database, file storage, search, mail, sms, etc, everything as a service. ZetaPush provides SDKs for mobile, web and IoT.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/102)*)
 
-###Push notification providers
+### Push notification providers
 
 - **[Accengage](http://www.accengage.com)** :zap:
 Accengage is the European leader in Push Notification Technology for mobile apps & websites. Available as a SaaS solution, Accengage has an intuitive user interface to set-up, launch, analyse and optimise your CRM Strategy on mobile devices and desktops. Over 300 international customers rely on the Accengage solution to communicate in a targeted, personalized, automated and synchronized way with their app & website users. Key figures: 60 Months of R&D, 500 Million installed apps with the Accengage SDK, 3 Billion push notifications sent per Month.
@@ -370,7 +370,7 @@ You don't want your app to crash, but it happens. And when it does, you'd better
 We provide you with a powerful realtime crash reporter, with minimum footprint. With the exact level of detail, we provide you with a full report about the running environment and the app log. We also do further server-side processing on crashes to provide you with the meaningful stack trace, and hence make it easier for you to solve the problem.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/122)*)
 
-###User Administration providers
+### User Administration providers
 
 - **[Auth0](https://auth0.com)**
 Single sign on services for your apps. Supports OAuth via over 34 different identity providers, passwordless login, and more.
@@ -498,7 +498,7 @@ The application framework for building web, mobile and IoT backends exclusively 
 Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code. 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/276)*)
 
-###Parse Server hosting providers
+### Parse Server hosting providers
 
 - **[Buddy Platform's 'Parse on Buddy'](http://buddy.com/parse)**
 Same price as current Parse! Includes fully scalable, highly-available hosting with full regular backups, monitoring, etc. for all apps. Enterprise-level [status](http://status.buddy.com) with great support & continued new development for migration and beyond. [Buddy](https://buddy.com) is a public company with international offices, and has been serving the mobile-backend-as-a-service space since 2011.
