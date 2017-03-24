@@ -170,10 +170,6 @@ RapidAPI is a BaaS providing many different features and APIs. User can use visu
 The Realm Mobile Platform delivers automatic realtime data sync, offline-first experiences, and event handling with less than 10 lines of code. The client-side component, Realm Mobile Database, is cross-platform, supporting both iOS and Android, and object-based, meaning no JSON, or ORM. Use the server-side Realm Object Server on any cloud or on-premises, with the ability to connect you existing infrastructure and APIs to your mobile devices. 
 (*[discussion](https://github.com/realm/realm-mobile-platform/issues/new)*)
 
-- **[Reindex](https://www.reindex.io)**
-Backend as a service with a GraphQL API. Reindex offers data storage, authentication, permissions, hooks for integrating with third-party services and custom code, and an open source SDK.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/99)*)
-
 - **[Restdb.io](https://restdb.io)**
 Backend-as-a-service focused on a powerful interface for creating your database models and providing a JSON REST API.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/100)*)
@@ -323,10 +319,6 @@ Helps developers track crashes or user behavior within the apps and keeps all th
 - **[Flurry Analytics](https://developer.yahoo.com/analytics)** :zap:
 Measure, track and analyze app performance, user acquisition and activity with Flurry Analytics.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/114)*)
-
-- **[Google Analytics for Mobile Apps](https://www.google.com/analytics/mobile)** :zap:
-Google Analytics for Mobile Apps lets you measure the full value of your app across all key stages, from first discovery and download to in-app conversions. See what keeps your users engaged and learn how you can make them happier – and your app more successful.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/115)*)
 
 - **[Heap Analytics](https://heapanalytics.com)** :zap:
 Heap automatically captures every user action in your web or iOS app and lets you measure it all after the fact. Clicks, taps, swipes, form submissions, page views. You're no longer limited by events you thought to log upfront.
