@@ -1,10 +1,10 @@
 [![FirebaseChat for iOS](http://relatedcode.com/github/header12.png)](http://github.com/relatedcode/Messenger)
 
-##Parse alternatives
+## Parse alternatives
 
 As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will be fully retired after a year-long period ending on January 28, 2017. Most of us need to find an alternative backend service for our apps. Please help the community to find a great BaaS. Contribution guidelines can be found [here](CONTRIBUTING.md).
 
-###What features are we looking for?
+### What features are we looking for?
 - Data Storage
 - Push Notifications
 - Usage Analytics
@@ -16,7 +16,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - Background Jobs
 - Crash Report
 
-###Index
+### Index
 - [General purpose providers](#general-purpose-providers)
 - [Push notification providers](#push-notification-providers)
 - [Analytics providers](#analytics-providers)
@@ -29,7 +29,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 
 The real-time providers are marked with :zap: icon.
 
-###General purpose providers
+### General purpose providers
 
 - **[AnyPresence](http://www.anypresence.com/solutions/mbaas)**
 The AnyPresence MBaaS is focused on simplifying the process of building enterprise mobile apps that run on many devices, without sacrificing developer flexibility. Users without much mobile experience or time can get started quickly, to assemble and deploy an app through a web-based designer. Advanced developers have access to the source code for all underlying components, to make customizations outside the platform or deploy server components on-premise.
@@ -284,7 +284,7 @@ WonderPush is a free push notification platform without obligation or credit car
 XtremePush is a leading mobile analytics, engagement and proximity marketing platform. The platform provides deep analytics and messaging functionality allowing brands to analyse and intelligently engage with their app users using Push notifications and In App Messaging. We also provide Geo Fencing and iBeacon technology enabling location based engagement with app users all through one easy to use platform.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/176)*)
 
-###Analytics providers
+### Analytics providers
 
 - **[Amplitude](https://amplitude.com)** :zap:
 Simply the best analytics for mobile and web. Track everything. Store everything. Never worry about scale!
@@ -352,7 +352,7 @@ Taplytics is a fully integrated mobile A/B testing, push notification, and analy
 Multi-channel User Engagement Platform. Communicate via In-App Messages, Push Notifications, Web Messages, Emails, Text Messages in real-time. Understand your users across all channels. Real-time event analytics across all channels and platforms. Identify trends & patterns based on User Interests, Lifecycle, Behavior, Geo-location and much more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/136)*)
 
-###Crash Report providers
+### Crash Report providers
 
 - **[Crashlytics](https://fabric.io/kits/ios/crashlytics)** :zap:
 The most powerful, yet lightest weight crash reporting solution.
@@ -395,7 +395,7 @@ Identity layer for your apps with integrations for popular backend frameworks an
 Tapglue provides a social layer including user-management for app developers. You can signup and login users, create social graphs (friend & follower model) and build feeds on top of it.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/249)*)
 
-###Backends for Game developers
+### Backends for Game developers
 
 - **[AppWarp](http://appwarp.shephertz.com)** :zap:
 AppWarp is a powerful, yet simple platform for developing multiplayer real-time games and applications. We provide awesome features to developers that enable you to build seemingly complex applications with little effort.
@@ -429,7 +429,7 @@ PlayFab offers the most complete backend platform built exclusively for live gam
 SmartFoxServer is a comprehensive SDK for rapidly developing multiplayer games and applications with Adobe Flash/Flex/Air, Unity, HTML5, iOS, Windows Phone 8, Android, Java, Windows 8, C++ and more. SmartFoxServer comes with a rich set of features, an impressive documentation set, tens of examples with their source, powerful administration tools and a very active support forum.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/130)*)
 
-###Open-source solutions
+### Open-source solutions
 
 - **[AeroGear](https://aerogear.org)**
 We make cross-platform enterprise mobile development easy. Aerogear provides flexible, extensible libraries and server side components that will simplify your mobile development and infrastructure setup across platforms.
@@ -520,7 +520,7 @@ Don’t panic. We migrate your Parse app and host your backend. Migrate to a ser
 SashiDo (formerly ParseGround) takes care for the server management, so you can focus on your apps. As easy as before. We’ll migrate, host & support your Parse apps. Free migration, 24/7 support, Multi-Geo coverage, Dashboard / Metrics, Automated Scaling, Free SSL. Simple and flexible pricing, starts from $4.95/mo. Based on AWS Technologies.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/253)*)
 
-###Parse Server infrastructure providers
+### Parse Server infrastructure providers
 
 - **[AWS](https://aws.amazon.com)**
 AWS is Amazon's cloud infrastructure service. It supports running Node.js apps both on VMs and docker container as well as running Mongo and AWS's own DynamoDB.
