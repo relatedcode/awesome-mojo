@@ -546,10 +546,6 @@ Heroku is a cloud platform that lets companies build, deliver, monitor and scale
 Bluemix is IBM's platform service, built with Cloud Foundry and running on IBM SoftLayer. It supports the Node.js runtime required for Parse Server. Bluemix also comes with many database options, including MongoDB from IBM's Compose.io acquisition. Link includes migration instructions.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/48)*)
 
-- **[Nitrous](https://www.nitrous.io)**
-Nitrous is a cloud-based code editor with collaboration, one-click installs and snapshots.
-(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/199)*)
-
 - **[ObjectRocket](https://objectrocket.com)**
 ObjectRocket is a leading MongoDB-as-a-service provider specializing in extremely fast performance and friendly expertise. ObjectRocket offers Parse migration-specific support and also has direct connections to AWS, if you want your app tier to live there.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/267)*)
