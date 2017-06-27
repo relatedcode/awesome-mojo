@@ -150,6 +150,10 @@ An alternative backend-as-a-service (BaaS) provider very similar to Parse. Like 
 Kumulos is built for mobile app development businesses and agencies to allow you to manage all of your clients and their apps from one single-pane-of-glass. Kumulos can be white-labelled with your agencies branding and you can invite your clients to join. Kumulos has features for each stage of the app lifecycle starting with Gartner recognised mBaaS technology. In addition to SQL based storage, this includes Hookup (to connect to other MySQL databases), KScript (for server-side Javascript jobs), a RESTful API and client SDKs for iOS, Android, Windows, PHP and more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/230)*)
 
+- **[LeanCloud](https://leancloud.cn/)**
+LeanCloud is a one-stop cloud service aims to speed up application development. It offers data storage, file hosting, instant messaging, push notification, cloud functions, SMS, analytics, etc. Also, it offers REST API and SDKs available on all platforms which allow you to access these services easily.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/304)*)
+
 - **[Microsoft Azure Mobile App Service](https://azure.microsoft.com/en-us/services/app-service/mobile)**
 This service comes close to Parse with its online/offline data syncing, user authentication, push notifications and cloud code.It’s easy to rapidly build engaging cross-platform and native apps for iOS, Android, Windows, or Mac.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/98)*)
