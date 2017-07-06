@@ -177,6 +177,10 @@ Backend-as-a-service focused on a powerful interface for creating your database 
 - **[Red Hat Mobile Platform](https://www.redhat.com/en/technologies/mobile/application-platform)**
 BaaS specially dedicated to the enterprise. Formerly known as **FeedHenry**. Open Source projects on http://feedhenry.org. Allows backend integration (based on Node.js). Comes with tooling for both native iOS, Android and Windows as well as HTML5 based apps. SSO, OAuth, LDAP security integration. Collaboration features and lifecycle management. Push Notifications. Analytics built in. Can run dedicated, on public and private clouds and in hybrid configurations. Dedicated commercial cloud offering available.
 
+- **[Scorocode](https://scorocode.ru)** :zap:
+Scorocode provides User registration with email verification, Authentication and session management, User management, Data modeling and management through a visual interface, Visual analytics, PUSH, Email, and SMS notifications, Server-side JavaScript code with Node.js support. Comes with SDKs for mobile platforms.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/306)*)
+
 - **[ShepHertz App42](http://api.shephertz.com)**
 ShepHertz provides a Omni-Channel Platform (mobile, social, gaming, TV, IoT, wearables etc.) to build Apps and Games. Deployed in 9 countries, processing 25+ Billion API Calls and trusted by thousands of Indie developers, App Studios and Enterprises across the world, App42 offers 25+ mBaaS modules such as Push Notifications, NoSQL Storage, Cloud Code, User Management, File Upload, Advanced Actionable Analytics, Gaming Backend APIs and much more.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/248)*)
