@@ -486,6 +486,10 @@ Piwik is the leading open-source analytics platform that gives you more than jus
 The application framework for building web, mobile and IoT backends exclusively on Amazon Web Services' Lambda and API Gateway.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/206)*)
 
+- **[Slate Kit](http://www.slatekit.com)**
+Slate Kit is an open-source mobile back-end and server framework for web and mobile apps. It is written in Kotlin and works with MySql, AWS for files/queues and uses Spark Java as the Http Server. Slate Kit is comprised of 3 main components which are Architecture components, Utilities and Mobile/Web application features. It comes with several architecture components such as an API Server, CLI, Background Workers, ORM, SMS/Email integration via Twilio/SendGrid, and more.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/308)*)
+
 - **[Strapi](http://strapi.io)**
 Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code. 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/276)*)
