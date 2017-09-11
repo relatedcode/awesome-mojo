@@ -26,6 +26,7 @@ As you may noticed [Parse](http://blog.parse.com/announcements/moving-on) will b
 - [Open-Source Solutions](#open-source-solutions)
 - [Parse Server hosting providers](#parse-server-hosting-providers)
 - [Parse Server infrastructure providers](#parse-server-infrastructure-providers)
+- [Parse Server dashboards](#parse-server-dashboards)
 
 The real-time providers are marked with :zap: icon.
 
@@ -163,11 +164,11 @@ PubNub powers low-latency messaging across any device, any platform, anywhere in
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/40)*)
 
 - **[RapidAPI](https://rapidapi.com)** :zap:
-RapidAPI is a BaaS providing many different features and APIs. User can use visual blocks to create the backend without writing a single line of code. You can do basic data storage, send push notifications, emails and text messages even integrate with Social APIs like Facebook, Google, Twitter and LinkedIn. 
+RapidAPI is a BaaS providing many different features and APIs. User can use visual blocks to create the backend without writing a single line of code. You can do basic data storage, send push notifications, emails and text messages even integrate with Social APIs like Facebook, Google, Twitter and LinkedIn.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/261)*)
 
 - **[Realm.io](https://www.realm.io)** :zap:
-The Realm Mobile Platform delivers automatic realtime data sync, offline-first experiences, and event handling with less than 10 lines of code. The client-side component, Realm Mobile Database, is cross-platform, supporting both iOS and Android, and object-based, meaning no JSON, or ORM. Use the server-side Realm Object Server on any cloud or on-premises, with the ability to connect you existing infrastructure and APIs to your mobile devices. 
+The Realm Mobile Platform delivers automatic realtime data sync, offline-first experiences, and event handling with less than 10 lines of code. The client-side component, Realm Mobile Database, is cross-platform, supporting both iOS and Android, and object-based, meaning no JSON, or ORM. Use the server-side Realm Object Server on any cloud or on-premises, with the ability to connect you existing infrastructure and APIs to your mobile devices.
 (*[discussion](https://github.com/realm/realm-mobile-platform/issues/new)*)
 
 - **[Restdb.io](https://restdb.io)**
@@ -372,7 +373,7 @@ Single sign on services for your apps. Supports OAuth via over 34 different iden
 Versatile authentication API that allows you to integrate logins, social sign in, and user management into your app.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/221)*)
 
-- **[Amazon Cognito](https://aws.amazon.com/cognito/)** 
+- **[Amazon Cognito](https://aws.amazon.com/cognito/)**
 Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. Gives the option to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your an individual identity system. In addition, Amazon Cognito allows saving data locally on users devices, even when the devices are offline. Data synchronization amongst several user devices possible.
 
 - **[Digits](https://get.digits.com)**
@@ -487,7 +488,7 @@ The application framework for building web, mobile and IoT backends exclusively 
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/206)*)
 
 - **[Strapi](http://strapi.io)**
-Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code. 
+Strapi is an open-source Node.js rich framework for building applications and services built on top of Koa. Strapi enables developers to focus on writing reusable application logic instead of spending time building infrastructure either through a user interface or directly in the code.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/276)*)
 
 ### Parse Server hosting providers
@@ -549,3 +550,13 @@ Cloud provider with support for it's own cloud, aws and azure. Supports running 
 - **[Triton](https://www.joyent.com)**
 Joyent's elastic container infrastructure backed by bare metal. It allows you to run Node.js apps and Mongo and provide a lot of tools for production debugging of Node.js apps.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/182)*)
+
+### Parse Server dashboards
+
+- **[Adminca](http://adminca.com/)**
+An interface for parse-server data. Connect your team or clients, create a Parse admin panel and have full control of which data can be viewed or edited. Unlike the Parse Data Browser, Adminca is designed with non-technical users in mind.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/310)*)
+
+- **[Parboard](https://parboard.com)**
+An alternative parse dashboard with support for analytics, collaborators, background jobs scheduling. Parboard connects to parse-server apps using Parse's REST API and brings back some of the hosted parse.com service features.
+(*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/311)*)
