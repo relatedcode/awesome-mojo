@@ -422,6 +422,9 @@ SmartFoxServer is a comprehensive SDK for rapidly developing multiplayer games a
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/130)*)
 
 ### Open-source solutions
+- **[AeroBase](https://github.com/aerobase/unifiedpush-server)**
+AeroBase is a mobile/web platform that helps you quickly develop high-quality modern web and mobile applications.
+Push notifications, Realtime DB (store & access your documents from both the server and the client), Authenticate users with email & password, Facebook, Twitter, GitHub, Google; RPM/DEB installers across a variety of platforms, Scalable & Fault Tolerant.
 
 - **[AeroGear](https://aerogear.org)**
 We make cross-platform enterprise mobile development easy. Aerogear provides flexible, extensible libraries and server side components that will simplify your mobile development and infrastructure setup across platforms.
