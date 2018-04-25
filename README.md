@@ -1,4 +1,4 @@
-[![iOS Messenger](http://relatedcode.com/github/header13.png)](http://github.com/relatedcode/Messenger)
+[![I am available for hire](http://relatedcode.com/github/header10.png)](http://relatedcode.com)
 
 ## Parse alternatives
 
