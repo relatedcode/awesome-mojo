@@ -123,6 +123,9 @@ Cosmic JS is a cloud-hosted content platform that makes it easy to add dynamic c
 DevLess is a platform that allows you to easily build robust backends for your web and mobile applications by piecing together plug and play backend modules. DevLess is open source, thus is infinitely customizable, and you’ll never be locked into a proprietary system. We are backed by a community of developers who contribute to the project and provide a high level of support to the project.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/301)*)
 
+- **[Django](https://www.djangoproject.com/)**
+Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.
+
 - **[FatFractal](http://fatfractal.com)**
 FatFractal lets you get started quickly with schema-less collection and object creation, and builds on that with advanced features including: local development; advanced query language; bi-directional datagraph traversal; declarative permissions; push notifications; event-, endpoint- and schedule-triggered backend code; pluggable authentication; and much more. Offers native iOS, Android/Java, and HTML5/JavaScript SDKs.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/96)*)
@@ -188,6 +191,9 @@ Syncano is a highly customizable BaaS that greatly reduces the need for backend 
 - **[Telerik](http://www.telerik.com/platform/backend-services)**
 Telerik Backend Services is equipped with a robust set of security measures to encrypt and securely transport data from all communications. As your business needs grow, you can be sure that Telerik Backend Services will scale to meet your requirements.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/41)*)
+
+- **[Vapor](https://vapor.codes/)**
+Vapor is the most used web framework for Swift. It provides a beautifully expressive and easy to use foundation for your next website or API.
 
 - **[ZetaPush](https://zetapush.com)** :zap:
 ZetaPush is a realtime BaaS providing out of the box authentications and services. You can use noSQL database, file storage, search, mail, sms, etc, everything as a service. ZetaPush provides SDKs for mobile, web and IoT.
