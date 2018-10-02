@@ -264,6 +264,9 @@ Pushy is an Android push notifications service up to 2x times faster than the co
 Urban Airship helps leading brands engage their mobile users and build high-value relationships from the moment customers download an app. Thousands of companies and some of the most demanding brands in retail, media & entertainment, sports and travel & hospitality, trust Urban Airship to deliver the mobile moments that matter to their customers and to their business.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/52)*)
 
+-**[Swrve](https://www.swrve.com)**
+Swrve provides real-time marketing automation software that increases customer engagement through dynamic campaigns that deliver relevant, personalized messages in micromoments that matter across mobile, email, web, TV and emerging digital channels. As a highly scalable platform handling billions of events every single day, hundred of international enterprises rely on us to deliver outstanding experiences and impactful campaigns in-the-moment to their customer base.
+
 - **[Tapjoy](http://www.tapjoy.com)** :zap:
 Tapjoy, the mobile app industry’s first personalized monetization platform, utilizes their holistic LTV infrastructure to enable app developers to deliver personalized, contextually relevant engagement and monetization campaigns. This technology offers user-level-segmentation which allows you to send targeted Push Notifications to re-engage your users and alert them of updates in your game or currency sales. Not only that, it allows you to take targeting to the next level by using Predictive Analytics. Choose to utilize unique products that increase conversions from Push Notifications by linking a push notifications to an opportunity to monetize with our Push to Earn product. Most importantly, push is FREE when you monetize with Tapjoy.
 (*[discussion](https://github.com/relatedcode/ParseAlternatives/issues/232)*)
