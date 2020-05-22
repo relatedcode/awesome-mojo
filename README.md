@@ -32,6 +32,9 @@ The real-time providers are marked with :zap: icon.
 
 ### General purpose providers
 
+- **[Appwrite](https://appwrite.io)**
+Appwrite is an end-to-end backend as a service. Appwrite provides developers with a set of simple REST APIs to manage their core backend needs. The product includes APIs for managing data storage, users and team management, +15 OAuth integrations, background & scheduled tasks, geo-location features, multi-tenants, and more. Appwrite is hugely focused around security and offers built-in data encryption, auto-generated SSL certificates, anti-virus files scans, audit logging, and abuse protection. Appwrite has multiple SDKs for web, mobile, and backend development.
+
 - **[ApiOmat](https://apiomat.com)**
 ApiOmat enables your enterprise processes to function as mobile applications. We mobilize complex business structures and processes by offering a mobile backend as a service solution that connects existing IT-systems with mobile applications and devices. The mobile backend as a service can be directly installed in a company’s data center, with connectors operating as a secure linkage to IT systems. This allows employees to work with data via apps and digital instances irrespective of where they are.
 
