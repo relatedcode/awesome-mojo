@@ -1,0 +1,5 @@
+.github
+scripts
+*.dev*
+*.stg*
+auto
