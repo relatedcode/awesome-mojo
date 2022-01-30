@@ -97,7 +97,7 @@ function Exports() {
                   {data?.sequelize && (
                     <div className="sm:flex sm:items-center sm:justify-between py-3 first:pt-0 last:pb-0">
                       <h3 className="text-base leading-6 font-medium text-gray-700">
-                        GQLStudio GraphQL Schema
+                        Studio GraphQL Schema
                       </h3>
 
                       <div className="mt-5 sm:mt-0 sm:ml-6 sm:flex-shrink-0 sm:flex sm:items-center">

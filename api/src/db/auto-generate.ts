@@ -391,46 +391,46 @@ export function autogenerateModel(
                             ${type.name}: {
                               ${
                                 type.type === "String"
-                                  ? `...(filter.${type.name}.eq) && { [Operation.eq]: filter.${type.name}.eq },
-                                    ...(filter.${type.name}.ne) && { [Operation.ne]: filter.${type.name}.ne },
-                                    ...(filter.${type.name}.substring) && { [Operation.substring]: filter.${type.name}.substring },
-                                    ...(filter.${type.name}.startsWith) && { [Operation.startsWith]: filter.${type.name}.startsWith },
-                                    ...(filter.${type.name}.endsWith) && { [Operation.endsWith]: filter.${type.name}.endsWith },`
+                                  ? `...(filter.${type.name}.eq !== undefined) && { [Operation.eq]: filter.${type.name}.eq },
+                                    ...(filter.${type.name}.ne !== undefined) && { [Operation.ne]: filter.${type.name}.ne },
+                                    ...(filter.${type.name}.substring !== undefined) && { [Operation.substring]: filter.${type.name}.substring },
+                                    ...(filter.${type.name}.startsWith !== undefined) && { [Operation.startsWith]: filter.${type.name}.startsWith },
+                                    ...(filter.${type.name}.endsWith !== undefined) && { [Operation.endsWith]: filter.${type.name}.endsWith },`
                                   : ""
                               }
                               ${
                                 type.type === "Date"
-                                  ? `...(filter.${type.name}.eq) && { [Operation.eq]: filter.${type.name}.eq },
-                                    ...(filter.${type.name}.ne) && { [Operation.ne]: filter.${type.name}.ne },
-                                    ...(filter.${type.name}.gt) && { [Operation.gt]: filter.${type.name}.gt },
-                                    ...(filter.${type.name}.gte) && { [Operation.gte]: filter.${type.name}.gte },
-                                    ...(filter.${type.name}.lt) && { [Operation.lt]: filter.${type.name}.lt },
-                                    ...(filter.${type.name}.lte) && { [Operation.lte]: filter.${type.name}.lte },`
+                                  ? `...(filter.${type.name}.eq !== undefined) && { [Operation.eq]: filter.${type.name}.eq },
+                                    ...(filter.${type.name}.ne !== undefined) && { [Operation.ne]: filter.${type.name}.ne },
+                                    ...(filter.${type.name}.gt !== undefined) && { [Operation.gt]: filter.${type.name}.gt },
+                                    ...(filter.${type.name}.gte !== undefined) && { [Operation.gte]: filter.${type.name}.gte },
+                                    ...(filter.${type.name}.lt !== undefined) && { [Operation.lt]: filter.${type.name}.lt },
+                                    ...(filter.${type.name}.lte !== undefined) && { [Operation.lte]: filter.${type.name}.lte },`
                                   : ""
                               }
                               ${
                                 type.type === "Int" || type.type === "Float"
-                                  ? `...(filter.${type.name}.eq) && { [Operation.eq]: filter.${type.name}.eq },
-                                    ...(filter.${type.name}.ne) && { [Operation.ne]: filter.${type.name}.ne },
-                                    ...(filter.${type.name}.gt) && { [Operation.gt]: filter.${type.name}.gt },
-                                    ...(filter.${type.name}.gte) && { [Operation.gte]: filter.${type.name}.gte },
-                                    ...(filter.${type.name}.lt) && { [Operation.lt]: filter.${type.name}.lt },
-                                    ...(filter.${type.name}.lte) && { [Operation.lte]: filter.${type.name}.lte },
-                                    ...(filter.${type.name}.between) && { [Operation.between]: filter.${type.name}.between },
-                                    ...(filter.${type.name}.notBetween) && { [Operation.notBetween]: filter.${type.name}.notBetween },`
+                                  ? `...(filter.${type.name}.eq !== undefined) && { [Operation.eq]: filter.${type.name}.eq },
+                                    ...(filter.${type.name}.ne !== undefined) && { [Operation.ne]: filter.${type.name}.ne },
+                                    ...(filter.${type.name}.gt !== undefined) && { [Operation.gt]: filter.${type.name}.gt },
+                                    ...(filter.${type.name}.gte !== undefined) && { [Operation.gte]: filter.${type.name}.gte },
+                                    ...(filter.${type.name}.lt !== undefined) && { [Operation.lt]: filter.${type.name}.lt },
+                                    ...(filter.${type.name}.lte !== undefined) && { [Operation.lte]: filter.${type.name}.lte },
+                                    ...(filter.${type.name}.between !== undefined) && { [Operation.between]: filter.${type.name}.between },
+                                    ...(filter.${type.name}.notBetween !== undefined) && { [Operation.notBetween]: filter.${type.name}.notBetween },`
                                   : ""
                               }
                               ${
                                 type.type === "Boolean"
-                                  ? `...(filter.${type.name}.eq) && { [Operation.eq]: filter.${type.name}.eq },
-                                    ...(filter.${type.name}.ne) && { [Operation.ne]: filter.${type.name}.ne },`
+                                  ? `...(filter.${type.name}.eq !== undefined) && { [Operation.eq]: filter.${type.name}.eq },
+                                    ...(filter.${type.name}.ne !== undefined) && { [Operation.ne]: filter.${type.name}.ne },`
                                   : ""
                               }
                               ${
                                 type.isArray
-                                  ? `...(filter.${type.name}.contains) && { [Operation.contains]: [filter.${type.name}.contains] },
-                                    ...(filter.${type.name}.ne) && { [Operation.ne]: filter.${type.name}.ne },
-                                    ...(filter.${type.name}.ne) && { [Operation.ne]: filter.${type.name}.ne },`
+                                  ? `...(filter.${type.name}.contains !== undefined) && { [Operation.contains]: [filter.${type.name}.contains] },
+                                    ...(filter.${type.name}.eq !== undefined) && { [Operation.eq]: filter.${type.name}.eq },
+                                    ...(filter.${type.name}.ne !== undefined) && { [Operation.ne]: filter.${type.name}.ne },`
                                   : ""
                               }
                             }
