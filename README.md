@@ -6,7 +6,7 @@
 
 GraphQLite is an open-source GraphQL server, using the latest technologies. Queries, Mutations, and event-based (Pub/Sub) Subscriptions.
 
-## Schema generator
+## Schema Generator
 
 With our easy-to-use schema generator, the Database tables, the GraphQL schema, and all the resolvers are created automatically.
 
@@ -24,15 +24,15 @@ With an S3 API compatible File Storage, GraphQLite gives you instant access to y
 
 ## Powerful SDKs
 
-You can build Swift apps quickly by using the native iOS SDK. With our npm library, Web development has never been easier. Flutter SDK is also coming soon.
+You can build Swift apps quickly by using the native [iOS SDK](https://graphqlite.com/sdk-ios). With our [npm library](https://graphqlite.com/sdk-web), Web development has never been easier. Flutter SDK is also coming soon.
 
 ## Studio Apps
 
-Download our native Studio Mac app, or use it anywhere from your browser. Multi-user environment, one-click test server deployment, and public API templates.
+Download our native [Studio Mac app](https://apps.apple.com/app/graphqlite-studio/id1601080565), or use it anywhere from [your browser](https://graphqlite.com/studio-web). Multi-user environment, one-click test server deployment, and public API templates.
 
 ## Demo Projects
 
-You can test all the features, by installing our nicely designed, fully functional, RelatedChat web app. Also, the Studio apps are based on the latest GraphQLite technology.
+You can test all the features, by installing our nicely designed, fully functional, [RelatedChat](https://github.com/relatedcode/RelatedChat) web app. Also, the Studio apps are based on the latest GraphQLite technology.
 
 ---
 
