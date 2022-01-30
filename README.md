@@ -22,13 +22,13 @@ With the industry-standard JSON Web Token (JWT) authentication, GraphQLite is a 
 
 With an S3 API compatible File Storage, GraphQLite gives you instant access to your files. High performance and unlimited flexibility delivered with your Core Server.
 
-## Studio Apps
-
-Download our native Studio Mac app, or use it anywhere from your browser. Multi-user environment, one-click test server deployment, and public API templates.
-
 ## Powerful SDKs
 
 You can build Swift apps quickly by using the native iOS SDK. With our npm library, Web development has never been easier. Flutter SDK is also coming soon.
+
+## Studio Apps
+
+Download our native Studio Mac app, or use it anywhere from your browser. Multi-user environment, one-click test server deployment, and public API templates.
 
 ## Demo Projects
 
