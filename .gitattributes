@@ -1,4 +1,4 @@
-ios-sdk/Framework/* linguist-vendored
+ios-sdk/GraphQLite.xcframework/* linguist-vendored
 
 *.podspec linguist-detectable=false
 
