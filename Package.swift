@@ -19,7 +19,7 @@ let package = Package(
             path: "ios-sdk/Source"
         ),
         .binaryTarget(name: "GraphQLiteFramework",
-                      path: "ios-sdk/GraphQLite.xcframework"
+                      path: "ios-sdk/GraphQLiteFramework.xcframework"
         )
     ]
 )
