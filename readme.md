@@ -1,6 +1,6 @@
 # Awesome Mojo [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Mojo🔥 is a programming language that combines the usability of Python with the performance of C.
+Mojo is a programming language that combines the usability of Python with the performance of C.
 
 ## Contents
 
