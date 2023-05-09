@@ -6,6 +6,7 @@ Mojo is a programming language that combines the usability of Python with the pe
 
 - [Built-in Modules](#built-in-modules)
 - [Standard Library Modules](#standard-library-modules)
+- [Resources](#resources)
 
 ## Built-in Modules
 
@@ -53,6 +54,11 @@ Mojo is a programming language that combines the usability of Python with the pe
 - [Time](https://docs.modular.com/mojo/MojoStdlib/Time.html) - Implements basic utils for working with time.
 - [TypeUtilities](https://docs.modular.com/mojo/MojoStdlib/TypeUtilities.html) - Implements type utilities.
 - [Vector](https://docs.modular.com/mojo/MojoStdlib/Vector.html) - Defines several vector-like classes.
+
+## Resources
+
+- [Modular Mojo](https://www.modular.com/mojo) - Official website of the Mojo programming language.
+- [Fast.ai blog post](https://www.fast.ai/posts/2023-05-03-mojo-launch.html) - Technical blog post about Mojo.
 
 ## Contributing
 
