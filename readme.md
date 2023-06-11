@@ -61,6 +61,7 @@ Mojo is a programming language that combines the usability of Python with the pe
 - [Fast.ai blog post](https://www.fast.ai/posts/2023-05-03-mojo-launch.html) - Technical blog post about Mojo.
 - [Fireship video](https://youtu.be/V4gGJ7XXlC0) - Video from Fireship about Mojo.
 - [Mojo: Future of AI Programming](https://codeconfessions.substack.com/p/mojo-the-future-of-ai-programming) - Blog post comparing Mojo vs Python
+- [game_of_life.🔥 - a late night Mojo hack](https://www.thapaliya.com/en/writings/hello-with-a-glider-gun-mojo/) - Conway's Game of Life : Glider guns shooting gliders implementation in Mojo
 
 ## Contributing
 
