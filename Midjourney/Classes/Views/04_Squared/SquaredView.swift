@@ -100,7 +100,8 @@ extension SquaredView {
 	func loadItems() {
 
 		updateLoading(true)
-		Backend.items(search, page) { [self] count, array, error in
+		Backend.items(search, page) { [weak self] count, array, error in
+			guard let self = self else { return }
 			if let error = error {
 				ProgressHUD.failed(error)
 			} else if let array = array {

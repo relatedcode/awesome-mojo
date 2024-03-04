@@ -133,7 +133,8 @@ extension SearchView {
 	func searchItems(_ text: String) {
 
 		isLoading = true
-		Backend.search(text) { [self] array, error in
+		Backend.search(text) { [weak self] array, error in
+			guard let self = self else { return }
 			isLoading = false
 			if let error = error {
 				ProgressHUD.failed(error)
