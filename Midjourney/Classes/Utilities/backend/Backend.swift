@@ -14,7 +14,7 @@ import Foundation
 //-----------------------------------------------------------------------------------------------------------------------------------------------
 class Backend {
 
-	static let baseUrl = "https://fusionai.info"
+	static let baseUrl = "https://appsearch.rest"
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	class func search(_ text: String, _ completion: @escaping ([String]?, Error?) -> Void) {
