@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "devicekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/devicekit/DeviceKit",
+      "state" : {
+        "revision" : "5757447e9f92c476ee2ca41ead7eb6db07936430",
+        "version" : "5.4.0"
+      }
+    },
+    {
       "identity" : "gifu",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/kaishin/Gifu.git",

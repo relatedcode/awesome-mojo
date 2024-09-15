@@ -12,16 +12,18 @@
 import UIKit
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
-enum AppColor {
+extension UIView {
 
-	static let main = UIColor("7678ed")
-	static let third = UIColor("ada7ff")
-	static let second = UIColor.white
-}
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	var parentViewController: UIViewController? {
 
-//-----------------------------------------------------------------------------------------------------------------------------------------------
-enum Screen {
-
-	static let width	= UIScreen.main.bounds.size.width
-	static let height	= UIScreen.main.bounds.size.height
+		var parentResponder: UIResponder? = self
+		while (parentResponder != nil) {
+			parentResponder = parentResponder?.next
+			if let viewController = parentResponder as? UIViewController {
+				return viewController
+			}
+		}
+		return nil
+	}
 }
