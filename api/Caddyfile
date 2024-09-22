@@ -1,0 +1,3 @@
+appsearch.cloud {
+    reverse_proxy midjourney:8080
+}

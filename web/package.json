@@ -1,0 +1,31 @@
+{
+  "name": "midjourney_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.2.2",
+    "axios": "^1.6.7",
+    "axios-proxy": "^0.0.1-security",
+    "lodash.debounce": "^4.0.8",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-infinite-scroller": "^1.2.6",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-responsive-masonry": "^2.2.0",
+    "use-debounce": "^10.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

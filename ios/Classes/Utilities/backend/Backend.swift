@@ -14,7 +14,7 @@ import Foundation
 //-----------------------------------------------------------------------------------------------------------------------------------------------
 class Backend {
 
-	static let baseUrl = "https://appsearch.rest"
+	static let baseUrl = "https://appsearch.cloud"
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	class func search(_ text: String, _ completion: @escaping ([String]?, Error?) -> Void) {

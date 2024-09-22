@@ -1,0 +1,4 @@
+fastapi==0.114.2
+uvicorn==0.30.6
+
+databases[sqlite]==0.9.0

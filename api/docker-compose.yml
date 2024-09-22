@@ -1,0 +1,8 @@
+services:
+  midjourney:
+    build: .
+    container_name: midjourney
+    ports:
+      - "80:8080"
+    volumes:
+      - ./sqlite:/usr/src/app/sqlite
