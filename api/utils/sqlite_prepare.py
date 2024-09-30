@@ -13,8 +13,8 @@ file_sqlite = config['default'].get('file_sqlite')
 
 sql = """
 DROP TABLE IF EXISTS DBSearch;
-CREATE VIRTUAL TABLE DBSearch USING fts5(objectId, title, description);
-INSERT INTO DBSearch SELECT objectId, title, description FROM DBItem;
+CREATE VIRTUAL TABLE DBSearch USING fts5(objectId, ratio, prompt);
+INSERT INTO DBSearch SELECT objectId, ratio, prompt FROM DBItem;
 """
 
 print("> Preparing FTS...")
