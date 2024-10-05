@@ -225,7 +225,7 @@ extension PicturesCell {
 
 		var zoomRect = CGRect.zero
 		zoomRect.size.height = imagePhoto.frame.size.height / scale
-		zoomRect.size.width  = imagePhoto.frame.size.width  / scale
+		zoomRect.size.width = imagePhoto.frame.size.width / scale
 		let newCenter = scrollView.convert(center, from: imagePhoto)
 		zoomRect.origin.x = newCenter.x - (zoomRect.size.width / 2.0)
 		zoomRect.origin.y = newCenter.y - (zoomRect.size.height / 2.0)
