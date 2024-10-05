@@ -100,7 +100,7 @@ class PicturesView: UICollectionViewController {
 
 		NotificationCenter.addObserver(self, selector: #selector(orientationDidChange(_:)), name: UIDevice.orientationDidChangeNotification)
 
-		setTitle()
+		updateTitle()
 		configureCollectionView()
 		configureGesture()
 	}
@@ -142,14 +142,14 @@ extension PicturesView {
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func scrollToCurrent() {
+	func scrollToCurrent(_ animated: Bool = false) {
 
 		let indexPath = IndexPath(item: currentIndex, section: 0)
-		collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: false)
+		collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: animated)
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func setTitle() {
+	func updateTitle() {
 
 		title = "\(currentIndex+1) of \(photoObjects.count)"
 	}
@@ -323,7 +323,7 @@ extension PicturesView {
 			let visiblePoint = CGPoint(x: visibleRect.midX, y: visibleRect.midY)
 			if let visibleIndexPath = collectionView.indexPathForItem(at: visiblePoint) {
 				currentIndex = visibleIndexPath.item
-				setTitle()
+				updateTitle()
 			}
 		}
 	}
