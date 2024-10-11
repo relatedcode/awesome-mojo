@@ -14,7 +14,7 @@ import UIKit
 //-----------------------------------------------------------------------------------------------------------------------------------------------
 class Grid {
 
-	static var gridColumns: Int = 3
+	static var gridColumns: Int = 2
 
 	static var gridMargin: CGFloat = 5.0
 	static var pageMargin: CGFloat = 10.0

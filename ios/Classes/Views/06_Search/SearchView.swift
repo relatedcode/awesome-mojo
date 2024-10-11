@@ -13,15 +13,7 @@ import UIKit
 import ProgressHUD
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
-protocol SearchDelegate: AnyObject {
-
-	func didSearchItem(_ search: String)
-}
-
-//-----------------------------------------------------------------------------------------------------------------------------------------------
 class SearchView: UIViewController {
-
-	weak var delegate: SearchDelegate?
 
 	@IBOutlet private var searchBar: UISearchBar!
 	@IBOutlet private var tableView: UITableView!
@@ -30,6 +22,7 @@ class SearchView: UIViewController {
 
 	private var isLoading = false
 	private var isWaiting = false
+	private var initialized = false
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	override func viewDidLoad() {
@@ -37,8 +30,7 @@ class SearchView: UIViewController {
 		super.viewDidLoad()
 		title = "Search"
 
-		let image = UIImage(systemName: "xmark")
-		navigationItem.rightBarButtonItem = UIBarButtonItem(image: image, style: .plain, target: self, action: #selector(actionDismiss))
+		navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
 
 		createObservers()
 	}
@@ -48,17 +40,22 @@ class SearchView: UIViewController {
 
 		super.viewDidAppear(animated)
 
-		searchBar.becomeFirstResponder()
+		if (!initialized) {
+			initialized = true
+			searchBar.becomeFirstResponder()
+		}
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	override func viewWillDisappear(_ animated: Bool) {
 
-	   super.viewWillDisappear(animated)
+		super.viewWillDisappear(animated)
 
-	   dismissKeyboard()
-	   removeObservers()
-   }
+		dismissKeyboard()
+		if (isMovingFromParent) {
+			removeObservers()
+		}
+	}
 }
 
 // MARK: - Keyboard methods
@@ -179,9 +176,8 @@ extension SearchView {
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	func actionSearch(_ text: String) {
 
-		delegate?.didSearchItem(text)
-
-		dismiss(animated: true)
+		let gridView = GridView(text)
+		navigationController?.pushViewController(gridView, animated: true)
 	}
 }
 
@@ -233,6 +229,7 @@ extension SearchView: UITableViewDelegate {
 		actionSearch(suggestion)
 	}
 }
+
 // MARK: - UISearchBarDelegate
 //-----------------------------------------------------------------------------------------------------------------------------------------------
 extension SearchView: UISearchBarDelegate {

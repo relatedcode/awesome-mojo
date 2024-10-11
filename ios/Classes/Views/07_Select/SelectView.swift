@@ -10,19 +10,43 @@
 // THE SOFTWARE.
 
 import UIKit
+import ProgressHUD
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
-class MainView: UIViewController {
+class SelectView: UIViewController {
 
 	@IBOutlet private var tableView: UITableView!
 
-	private var items = ["Waterfall", "Squared", "Search", "Settings"]
+	private var words: [String] = []
+
+	private var selection: [String] = []
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	init(_ prompt: String) {
+
+		super.init(nibName: nil, bundle: nil)
+
+		words = prompt.components(separatedBy: .whitespacesAndNewlines).map { word in
+			word.lowercased().filter { $0.isLetter }
+		}.filter { $0.count >= 3 }
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	required init?(coder: NSCoder) {
+
+		fatalError()
+	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	override func viewDidLoad() {
 
 		super.viewDidLoad()
-		title = "Midjourney"
+		title = "Select"
+
+		let imageL = UIImage(systemName: "xmark")
+		let imageR = UIImage(systemName: "arrow.right")
+		navigationItem.leftBarButtonItem = UIBarButtonItem(image: imageL, style: .plain, target: self, action: #selector(actionDismiss))
+		navigationItem.rightBarButtonItem = UIBarButtonItem(image: imageR, style: .plain, target: self, action: #selector(actionSearch))
 
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
 	}
@@ -30,52 +54,40 @@ class MainView: UIViewController {
 
 // MARK: - User actions
 //-----------------------------------------------------------------------------------------------------------------------------------------------
-extension MainView {
+extension SelectView {
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func actionWaterfall() {
+	@objc func actionDismiss() {
 
-		let random = Keywords.random()
-		let gridView = GridView(random)
+		dismiss(animated: true)
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	@objc func actionSearch() {
+
+		if (selection.count == 0) { return }
+
+		let search = selection.joined(separator: " ")
+
+		let gridView = GridView(search)
 		navigationController?.pushViewController(gridView, animated: true)
-	}
-
-	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func actionSquared() {
-
-		let random = Keywords.random()
-		let squaredView = SquaredView(random)
-		navigationController?.pushViewController(squaredView, animated: true)
-	}
-
-	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func actionSearch() {
-
-		let searchView = SearchView()
-		navigationController?.pushViewController(searchView, animated: true)
-	}
-
-	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func actionSettings() {
-
-		navigationController?.pushViewController(SettingsView(), animated: true)
 	}
 }
 
 // MARK: - UITableViewDataSource
 //-----------------------------------------------------------------------------------------------------------------------------------------------
-extension MainView: UITableViewDataSource {
+extension SelectView: UITableViewDataSource {
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	func numberOfSections(in tableView: UITableView) -> Int {
 
-		return items.count
+		return 1
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 
-		return 1
+		return words.count
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
@@ -84,8 +96,9 @@ extension MainView: UITableViewDataSource {
 		var cell: UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "cell")
 		if (cell == nil) { cell = UITableViewCell(style: .default, reuseIdentifier: "cell") }
 
-		let item = items[indexPath.section]
-		cell.textLabel?.text = item
+		let word = words[indexPath.row]
+		cell.textLabel?.text = word
+		cell.accessoryType = selection.contains(word) ? .checkmark : .none
 
 		return cell
 	}
@@ -93,18 +106,22 @@ extension MainView: UITableViewDataSource {
 
 // MARK: - UITableViewDelegate
 //-----------------------------------------------------------------------------------------------------------------------------------------------
-extension MainView: UITableViewDelegate {
+extension SelectView: UITableViewDelegate {
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
 		tableView.deselectRow(at: indexPath, animated: true)
 
-		let item = items[indexPath.section]
+		let word = words[indexPath.row]
 
-		if (item == "Waterfall")	{ actionWaterfall()	}
-		if (item == "Squared")		{ actionSquared()	}
-		if (item == "Search")		{ actionSearch()	}
-		if (item == "Settings")		{ actionSettings()	}
+		if (selection.contains(word)) {
+			selection.remove(word)
+		} else {
+			selection.append(word)
+		}
+
+		let cell = tableView.cellForRow(at: indexPath)
+		cell?.accessoryType = selection.contains(word) ? .checkmark : .none
 	}
 }

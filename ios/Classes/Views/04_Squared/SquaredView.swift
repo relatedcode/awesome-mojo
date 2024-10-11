@@ -49,7 +49,6 @@ class SquaredView: UIViewController {
 		navigationItem.titleView = viewTitle
 
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
-		navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .search, target: self, action: #selector(actionSearch))
 
 		collectionView.register(UINib(nibName: "SquaredCell", bundle: nil), forCellWithReuseIdentifier: "SquaredCell")
 
@@ -145,28 +144,6 @@ extension SquaredView {
 	@IBAction func actionRandom(_ sender: Any) {
 
 		search = Keywords.random()
-
-		reloadItems()
-	}
-
-	//-------------------------------------------------------------------------------------------------------------------------------------------
-	@objc func actionSearch() {
-
-		let searchView = SearchView()
-		searchView.delegate = self
-		let navController = NavigationController(rootViewController: searchView)
-		present(navController, animated: true)
-	}
-}
-
-// MARK: - SearchDelegate
-//-----------------------------------------------------------------------------------------------------------------------------------------------
-extension SquaredView: SearchDelegate {
-
-	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func didSearchItem(_ search: String) {
-
-		self.search = search
 
 		reloadItems()
 	}
