@@ -27,7 +27,6 @@ python3 utils/reop_upload.py
 ```bash
 sh xdocker/up_dev.sh
 sh xdocker/up_live.sh
-sh xdocker/up_caddy.sh
 ```
 
 5. To shut down the API, enter one of the following commands.
@@ -35,7 +34,6 @@ sh xdocker/up_caddy.sh
 ```bash
 sh xdocker/down_dev.sh
 sh xdocker/down_live.sh
-sh xdocker/down_caddy.sh
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------
@@ -57,7 +55,7 @@ sh xdocker/enter.sh
 3. Check the logs:
 
 ```bash
-sh xdocker/logs.sh midjourney
+sh xdocker/logs.sh api
 sh xdocker/logs.sh caddy
 ```
 

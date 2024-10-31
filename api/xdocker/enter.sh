@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker exec -it midjourney bash
+docker exec -it api bash

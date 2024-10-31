@@ -41,8 +41,15 @@ async def shutdown():
 # ---------------------------------------------------------------------------------------------------------------------
 
 async def fetchall(query: str, values: dict = None):
+
     rows = await database.fetch_all(query=query, values=values)
     return [dict(row) for row in rows]
+
+# ---------------------------------------------------------------------------------------------------------------------
+
+def duration(started: float):
+
+    return int((time.time() - started) * 1000)
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Root Endpoint
@@ -68,12 +75,10 @@ async def latest(page: int = 0, limit: int = 50):
         {"limit": limit, "offset": page * limit}
     )
 
-    duration = int((time.time() - started) * 1000)
-
     return {
         "data": items,
         "count": len(items),
-        "duration": duration
+        "duration": duration(started)
     }
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -98,13 +103,11 @@ async def items(query: str, page: int = 0, limit: int = 50):
         {"query": query}
     )
 
-    duration = int((time.time() - started) * 1000)
-
     return {
         "data": items,
         "count": len(items),
         "total": total[0]["count"],
-        "duration": duration
+        "duration": duration(started)
     }
 
 # ---------------------------------------------------------------------------------------------------------------------
@@ -112,7 +115,7 @@ async def items(query: str, page: int = 0, limit: int = 50):
 # ---------------------------------------------------------------------------------------------------------------------
 
 @app.get("/search")
-async def search_items(query: str, limit: int = 50):
+async def search(query: str, limit: int = 50):
 
     if not query:
         raise HTTPException(status_code=400, detail="Missing query parameter")
@@ -141,12 +144,27 @@ async def search_items(query: str, limit: int = 50):
 
     suggestions = sorted(suggestion_counts, key=suggestion_counts.get, reverse=True)[:limit]
 
-    duration = int((time.time() - started) * 1000)
-
     return {
         "suggestions": suggestions,
         "count": len(suggestions),
-        "duration": duration
+        "duration": duration(started)
+    }
+
+# ---------------------------------------------------------------------------------------------------------------------
+# Random Endpoint
+# ---------------------------------------------------------------------------------------------------------------------
+
+@app.get("/random")
+async def random():
+
+    started = time.time()
+
+    item = await fetchall("SELECT word, counter FROM DBWord ORDER BY RANDOM() LIMIT 1")
+
+    return {
+        "word": item[0]["word"],
+        "count": item[0]["counter"],
+        "duration": duration(started)
     }
 
 # ---------------------------------------------------------------------------------------------------------------------

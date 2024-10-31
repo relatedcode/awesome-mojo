@@ -21,7 +21,6 @@ temp = ' '.join([
     "build.py",
     "Caddyfile",
     "config.ini",
-    "docker-compose.caddy.yml",
     "docker-compose.dev.yml",
     "docker-compose.yml",
     "Dockerfile",
