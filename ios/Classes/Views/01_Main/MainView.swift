@@ -10,6 +10,7 @@
 // THE SOFTWARE.
 
 import UIKit
+import ProgressHUD
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------
 class MainView: UIViewController {
@@ -18,6 +19,8 @@ class MainView: UIViewController {
 
 	private var items = ["Waterfall", "Squared", "Search", "Settings"]
 
+	private var random: String = ""
+
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	override func viewDidLoad() {
 
@@ -25,6 +28,32 @@ class MainView: UIViewController {
 		title = "Midjourney"
 
 		navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: .plain, target: nil, action: nil)
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	override func viewWillAppear(_ animated: Bool) {
+
+		super.viewWillAppear(animated)
+
+		fetchRandom()
+	}
+}
+
+// MARK: - Helper methods
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+extension MainView {
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	func fetchRandom() {
+
+		Backend.random { [weak self] word, error in
+			guard let self = self else { return }
+			if let error = error {
+				ProgressHUD.failed(error)
+			} else if let word = word {
+				random = word
+			}
+		}
 	}
 }
 
@@ -35,17 +64,19 @@ extension MainView {
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	func actionWaterfall() {
 
-		let random = Keywords.random()
-		let gridView = GridView(random)
-		navigationController?.pushViewController(gridView, animated: true)
+		if (random.notEmpty) {
+			let gridView = GridView(random)
+			navigationController?.pushViewController(gridView, animated: true)
+		}
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	func actionSquared() {
 
-		let random = Keywords.random()
-		let squaredView = SquaredView(random)
-		navigationController?.pushViewController(squaredView, animated: true)
+		if (random.notEmpty) {
+			let squaredView = SquaredView(random)
+			navigationController?.pushViewController(squaredView, animated: true)
+		}
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------

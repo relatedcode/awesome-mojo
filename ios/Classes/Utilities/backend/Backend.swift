@@ -55,11 +55,6 @@ class Backend {
 			return
 		}
 
-		if let message = json["error"] as? String {
-			completion(nil, NSError(message))
-			return
-		}
-
 		guard let array = json["suggestions"] as? [String] else {
 			completion(nil, NSError("Result error."))
 			return
@@ -99,7 +94,7 @@ extension Backend {
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
-	class func itemsParse(_ data: Data?, _ completion: @escaping (Int, [Item]?, Error?) -> Void) {
+	private class func itemsParse(_ data: Data?, _ completion: @escaping (Int, [Item]?, Error?) -> Void) {
 
 		guard let data = data else {
 			completion(0, nil, NSError("Missing data."))
@@ -127,5 +122,51 @@ extension Backend {
 		items.shuffle()
 
 		completion(total, items, nil)
+	}
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+extension Backend {
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	class func random(_ completion: @escaping (String?, Error?) -> Void) {
+
+		guard let url = URL(string: "\(baseUrl)/random") else {
+			completion(nil, NSError("URL error."))
+			return
+		}
+
+		let task = URLSession.shared.dataTask(with: url) { data, response, error in
+			DispatchQueue.main.async {
+				if (error == nil) {
+					randomParse(data, completion)
+				} else {
+					completion(nil, error)
+				}
+			}
+		}
+
+		task.resume()
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	private class func randomParse(_ data: Data?, _ completion: @escaping (String?, Error?) -> Void) {
+
+		guard let data = data else {
+			completion(nil, NSError("Missing data."))
+			return
+		}
+
+		guard let json = try? JSONSerialization.jsonObject(with: data) as? [String: Any] else {
+			completion(nil, NSError("JSON error."))
+			return
+		}
+
+		guard let word = json["word"] as? String else {
+			completion(nil, NSError("Result error."))
+			return
+		}
+
+		completion(word, nil)
 	}
 }

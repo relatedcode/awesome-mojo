@@ -31,6 +31,7 @@ class GridView: UIViewController {
 
 	private var items: [Item] = []
 	private var search: String = ""
+	private var random: String = ""
 	private var isLoading: Bool = false
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
@@ -64,7 +65,7 @@ class GridView: UIViewController {
 		let margin = Grid.gridMargin / 2
 		collectionView.contentInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin)
 
-		reloadItems()
+		loadItems()
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
@@ -89,7 +90,7 @@ class GridView: UIViewController {
 extension GridView {
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func reloadItems() {
+	func loadItems() {
 
 		if (!isLoading) {
 			page = 0
@@ -99,7 +100,8 @@ extension GridView {
 			items.removeAll()
 			collectionView.reloadData()
 
-			loadItems()
+			fetchItems()
+			fetchRandom()
 		}
 	}
 
@@ -108,12 +110,12 @@ extension GridView {
 
 		if (!isLoading) {
 			page += 1
-			loadItems()
+			fetchItems()
 		}
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
-	func loadItems() {
+	func fetchItems() {
 
 		updateLoading(true)
 		Backend.items(search, page) { [weak self] count, array, error in
@@ -126,6 +128,19 @@ extension GridView {
 				collectionView.reloadData()
 			}
 			updateLoading(false)
+		}
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	func fetchRandom() {
+
+		Backend.random { [weak self] word, error in
+			guard let self = self else { return }
+			if let error = error {
+				ProgressHUD.failed(error)
+			} else if let word = word {
+				random = word
+			}
 		}
 	}
 }
@@ -160,9 +175,9 @@ extension GridView {
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	@IBAction func actionRandom(_ sender: Any) {
 
-		search = Keywords.random()
+		search = random
 
-		reloadItems()
+		loadItems()
 	}
 }
 
@@ -272,7 +287,7 @@ extension GridView: UICollectionViewDataSource {
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
 
-		if (indexPath.item == items.count-1) && (items.count < total) {
+		if (indexPath.item == items.count-25) && (items.count < total) {
 			loadNext()
 		}
 	}
