@@ -31,10 +31,10 @@ class Backend {
 
 		let task = URLSession.shared.dataTask(with: url) { data, response, error in
 			DispatchQueue.main.async {
-				if (error == nil) {
-					searchParse(data, completion)
-				} else {
+				if let error = check(data, response, error) {
 					completion(nil, error)
+				} else {
+					searchParse(data, completion)
 				}
 			}
 		}
@@ -82,10 +82,10 @@ extension Backend {
 
 		let task = URLSession.shared.dataTask(with: url) { data, response, error in
 			DispatchQueue.main.async {
-				if (error == nil) {
-					itemsParse(data, completion)
-				} else {
+				if let error = check(data, response, error) {
 					completion(0, nil, error)
+				} else {
+					itemsParse(data, completion)
 				}
 			}
 		}
@@ -138,10 +138,10 @@ extension Backend {
 
 		let task = URLSession.shared.dataTask(with: url) { data, response, error in
 			DispatchQueue.main.async {
-				if (error == nil) {
-					randomParse(data, completion)
-				} else {
+				if let error = check(data, response, error) {
 					completion(nil, error)
+				} else {
+					randomParse(data, completion)
 				}
 			}
 		}
@@ -168,5 +168,29 @@ extension Backend {
 		}
 
 		completion(word, nil)
+	}
+}
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+extension Backend {
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	private class func check(_ data: Data?, _ response: URLResponse?, _ error: Error?) -> Error? {
+
+		if let error = error {
+			return error
+		}
+
+		if let httpResponse = response as? HTTPURLResponse {
+			if (200...299).contains(httpResponse.statusCode) {
+				return nil
+			}
+		}
+
+		if let data = data, let message = String(data: data, encoding: .utf8) {
+			return NSError(message)
+		}
+
+		return NSError("Unknown error")
 	}
 }
