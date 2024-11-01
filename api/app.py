@@ -40,6 +40,18 @@ async def shutdown():
 
 # ---------------------------------------------------------------------------------------------------------------------
 
+def sanitize(query: str) -> str:
+
+    sanitized = re.sub(r'[^\w\s]', '', query)
+    sanitized = ' '.join(sanitized.split())
+
+    if query.endswith(' '):
+        sanitized += ' '
+
+    return sanitized
+
+# ---------------------------------------------------------------------------------------------------------------------
+
 async def fetchall(query: str, values: dict = None):
 
     rows = await database.fetch_all(query=query, values=values)
@@ -47,7 +59,7 @@ async def fetchall(query: str, values: dict = None):
 
 # ---------------------------------------------------------------------------------------------------------------------
 
-def duration(started: float):
+def duration(started: float) -> int:
 
     return int((time.time() - started) * 1000)
 
@@ -88,19 +100,20 @@ async def latest(page: int = 0, limit: int = 50):
 @app.get("/items")
 async def items(query: str, page: int = 0, limit: int = 50):
 
-    if not query:
-        raise HTTPException(status_code=400, detail="Missing query parameter")
-
     started = time.time()
+    cleared = sanitize(query)
+
+    if not cleared:
+        raise HTTPException(status_code=400, detail="Invalid query parameter")
 
     items = await fetchall(
         "SELECT * FROM DBSearch WHERE prompt MATCH :query LIMIT :limit OFFSET :offset",
-        {"query": query, "limit": limit, "offset": page * limit}
+        {"query": cleared, "limit": limit, "offset": page * limit}
     )
 
     total = await fetchall(
         "SELECT COUNT(*) AS count FROM DBSearch WHERE prompt MATCH :query",
-        {"query": query}
+        {"query": cleared}
     )
 
     return {
@@ -117,12 +130,13 @@ async def items(query: str, page: int = 0, limit: int = 50):
 @app.get("/search")
 async def search(query: str, limit: int = 50):
 
-    if not query:
-        raise HTTPException(status_code=400, detail="Missing query parameter")
-
     started = time.time()
+    cleared = sanitize(query)
 
-    text = query.lower()
+    if not cleared:
+        raise HTTPException(status_code=400, detail="Invalid query parameter")
+
+    text = cleared.lower()
     rows = await fetchall(
         "SELECT * FROM DBSearch WHERE prompt MATCH :query LIMIT 10000",
         {"query": text + '*'}
