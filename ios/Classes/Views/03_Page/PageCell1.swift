@@ -134,19 +134,62 @@ extension PageCell1: UITableViewDelegate {
 
 		tableView.deselectRow(at: indexPath, animated: true)
 
-		if (indexPath.row == 0) {
-			if let path = Image.path(link: item.link()) {
-				if let image = UIImage(path: path) {
-					let object = PhotoObject(item.objectId, image)
-					let photoController = PhotoController([object], 0)
-					pageView.present(photoController, animated: true)
-				}
+		if (indexPath.row == 0) { actionPhoto() }
+		if (indexPath.row == 1) { actionPrompt() }
+	}
+}
+
+// MARK: - User actions
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+extension PageCell1 {
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	func actionPhoto() {
+
+		let link = item.full()
+
+		if let path = Image.path(link: link) {
+			actionPhoto(path: path)
+		} else {
+			actionPhoto(link: link)
+		}
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	func actionPhoto(path: String) {
+
+		if let image = UIImage(path: path) {
+			actionPhoto(image: image)
+		}
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	func actionPhoto(link: String) {
+
+		ProgressHUD.animate(interaction: false)
+		Image.load(link) { [weak self] image, error in
+			guard let self = self else { return }
+			if let error = error {
+				ProgressHUD.failed(error)
+			} else if let image = image {
+				ProgressHUD.remove()
+				actionPhoto(image: image)
 			}
 		}
-		if (indexPath.row == 1) {
-			let selectView = SelectView(item.prompt)
-			let navController = NavigationController(rootViewController: selectView)
-			pageView.present(navController, animated: true)
-		}
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	func actionPhoto(image: UIImage) {
+
+		let photoController = PhotoController(image: image)
+		pageView.present(photoController, animated: true)
+	}
+
+	//-------------------------------------------------------------------------------------------------------------------------------------------
+	func actionPrompt() {
+
+		let selectView = SelectView(item.prompt)
+		let navController = NavigationController(rootViewController: selectView)
+		pageView.present(navController, animated: true)
 	}
 }

@@ -82,7 +82,9 @@ extension Pictures {
 		if let error = error {
 			ProgressHUD.failed(error)
 		} else {
-			ProgressHUD.succeed()
+			DispatchQueue.main.async(after: 0.25) {
+				ProgressHUD.succeed(delay: 0.75)
+			}
 		}
 	}
 }
