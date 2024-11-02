@@ -1,10 +1,9 @@
 services:
   api:
     build: .
-    command: uvicorn app:app --host 0.0.0.0 --port 8080 --reload
+    command: uvicorn main:app --host 0.0.0.0 --port 8080 --reload
     ports:
       - 8080:8080
     volumes:
       - ./sqlite:/usr/src/app/sqlite
-      - ./app.py:/usr/src/app/app.py
-      - ./build.py:/usr/src/app/build.py
+      - ./main.py:/usr/src/app/main.py
