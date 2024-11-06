@@ -7,8 +7,14 @@ from collections import Counter
 # ---------------------------------------------------------------------------------------------------------------------
 from sqlmodel import SQLModel, Field
 from sqlmodel import create_engine
-from sqlmodel import Session, select
+from sqlmodel import select
 from sqlalchemy.sql import func
+
+# ---------------------------------------------------------------------------------------------------------------------
+from typing import Annotated
+
+from fastapi import Depends
+from sqlmodel import Session
 
 # ---------------------------------------------------------------------------------------------------------------------
 from fastapi import FastAPI
@@ -61,6 +67,14 @@ engine = create_engine("sqlite:///sqlite/database.sqlite")
 
 # ---------------------------------------------------------------------------------------------------------------------
 
+def get_session():
+    with Session(engine) as session:
+        yield session
+
+SessionDeps = Annotated[Session, Depends(get_session)]
+
+# ---------------------------------------------------------------------------------------------------------------------
+
 def sanitize(query: str) -> str:
 
     sanitized = re.sub(r'[^\w\s]', '', query)
@@ -92,26 +106,25 @@ async def root() -> dict:
 # ---------------------------------------------------------------------------------------------------------------------
 
 @app.get("/latest")
-async def latest(page: int = 0, limit: int = 5) -> dict:
+async def latest(session: SessionDeps, page: int = 0, limit: int = 5) -> dict:
 
     started = time.time()
 
-    with Session(engine) as session:
-        statement = select(DBItem).order_by(DBItem.createdAt.desc()).offset(page * limit).limit(limit)
-        items = session.exec(statement).all()
+    statement = select(DBItem).order_by(DBItem.createdAt.desc()).offset(page * limit).limit(limit)
+    items = session.exec(statement).all()
 
-        return {
-            "data": items,
-            "count": len(items),
-            "duration": duration(started)
-        }
+    return {
+        "data": items,
+        "count": len(items),
+        "duration": duration(started)
+    }
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Items Endpoint
 # ---------------------------------------------------------------------------------------------------------------------
 
 @app.get("/items")
-async def items(query: str, page: int = 0, limit: int = 5) -> dict:
+async def items(session: SessionDeps, query: str, page: int = 0, limit: int = 5) -> dict:
 
     started = time.time()
     cleared = sanitize(query)
@@ -119,26 +132,27 @@ async def items(query: str, page: int = 0, limit: int = 5) -> dict:
     if not cleared:
         raise HTTPException(status_code=400, detail="Invalid query parameter")
 
-    with Session(engine) as session:
-        statement = select(DBSearch).where(DBSearch.prompt.match(cleared)).offset(page * limit).limit(limit)
-        items = session.exec(statement).all()
+    condition = DBSearch.prompt.match(cleared)
 
-        statement = select(func.count()).select_from(DBSearch).where(DBSearch.prompt.match(cleared))
-        total = session.exec(statement).first()
+    statement = select(DBSearch).where(condition).offset(page * limit).limit(limit)
+    items = session.exec(statement).all()
 
-        return {
-            "data": items,
-            "count": len(items),
-            "total": total,
-            "duration": duration(started)
-        }
+    statement = select(func.count()).select_from(DBSearch).where(condition)
+    total = session.exec(statement).first()
+
+    return {
+        "data": items,
+        "count": len(items),
+        "total": total,
+        "duration": duration(started)
+    }
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Search Endpoint
 # ---------------------------------------------------------------------------------------------------------------------
 
 @app.get("/search")
-async def search(query: str, limit: int = 5) -> dict:
+async def search(session: SessionDeps, query: str, limit: int = 5) -> dict:
 
     started = time.time()
     cleared = sanitize(query)
@@ -146,24 +160,24 @@ async def search(query: str, limit: int = 5) -> dict:
     if not cleared:
         raise HTTPException(status_code=400, detail="Invalid query parameter")
 
-    text = cleared.lower()
+    condition = DBSearch.prompt.match(cleared + '*')
 
-    with Session(engine) as session:
-        statement = select(DBSearch).where(DBSearch.prompt.match(text + '*')).limit(10000)
-        rows = session.exec(statement).all()
+    statement = select(DBSearch).where(condition).limit(10000)
+    rows = session.exec(statement).all()
 
-        result = suggestions(rows, text, limit)
+    result = suggestions(rows, cleared, limit)
 
-        return {
-            "suggestions": result,
-            "count": len(result),
-            "duration": duration(started)
-        }
+    return {
+        "suggestions": result,
+        "count": len(result),
+        "duration": duration(started)
+    }
 
 # ---------------------------------------------------------------------------------------------------------------------
 
 def suggestions(rows: list[DBSearch], text: str, limit: int) -> list[str]:
 
+    text = text.lower()
     counter = Counter()
 
     for row in rows:
@@ -185,21 +199,20 @@ def suggestions(rows: list[DBSearch], text: str, limit: int) -> list[str]:
 # ---------------------------------------------------------------------------------------------------------------------
 
 @app.get("/random")
-async def random() -> dict:
+async def random(session: SessionDeps) -> dict:
 
     started = time.time()
 
-    with Session(engine) as session:
-        statement = select(DBWord).order_by(func.random()).limit(1)
-        result = session.exec(statement).first()
+    statement = select(DBWord).order_by(func.random()).limit(1)
+    result = session.exec(statement).first()
 
-        if not result:
-            raise HTTPException(status_code=404, detail="No words found")
+    if not result:
+        raise HTTPException(status_code=404, detail="No words found")
 
-        return {
-            "word": result.word,
-            "count": result.counter,
-            "duration": duration(started)
-        }
+    return {
+        "word": result.word,
+        "count": result.counter,
+        "duration": duration(started)
+    }
 
 # ---------------------------------------------------------------------------------------------------------------------
