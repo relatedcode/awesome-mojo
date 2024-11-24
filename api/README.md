@@ -19,21 +19,21 @@ pip3 install paramiko
 3. For uploading the repo, run the following script.
 
 ```bash
-python3 utils/reop_upload.py
+python3 utils/repo_upload.py
 ```
 
 4. To initiate the API, enter one of the following commands.
 
 ```bash
-sh xdocker/up_dev.sh
-sh xdocker/up_live.sh
+sh xdocker/start-dev.sh
+sh xdocker/start-prod.sh
 ```
 
 5. To shut down the API, enter one of the following commands.
 
 ```bash
-sh xdocker/down_dev.sh
-sh xdocker/down_live.sh
+sh xdocker/kill-dev.sh
+sh xdocker/kill-prod.sh
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------

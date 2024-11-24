@@ -5,7 +5,9 @@ import datetime
 from collections import Counter
 
 # ---------------------------------------------------------------------------------------------------------------------
-from sqlmodel import SQLModel, Field
+from .models import *
+
+# ---------------------------------------------------------------------------------------------------------------------
 from sqlmodel import create_engine
 from sqlmodel import select
 from sqlalchemy.sql import func
@@ -36,32 +38,6 @@ app.add_middleware(
 # ---------------------------------------------------------------------------------------------------------------------
 
 started_at = datetime.datetime.now()
-
-# ---------------------------------------------------------------------------------------------------------------------
-
-class DBItem(SQLModel, table=True):
-    __tablename__ = "DBItem"
-
-    objectId: str = Field(primary_key=True)
-    ratio: float
-    prompt: str
-    createdAt: str
-
-class DBSearch(SQLModel, table=True):
-    __tablename__ = "DBSearch"
-
-    objectId: str = Field(primary_key=True)
-    ratio: float
-    prompt: str
-
-class DBWord(SQLModel, table=True):
-    __tablename__ = "DBWord"
-
-    objectId: str = Field(primary_key=True)
-    word: str
-    counter: int
-
-# ---------------------------------------------------------------------------------------------------------------------
 
 engine = create_engine("sqlite:///sqlite/database.sqlite")
 

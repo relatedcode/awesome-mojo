@@ -17,12 +17,12 @@ dir_sqlite = config['default'].get('dir_sqlite')
 
 temp = ' '.join([
     ".dockerignore",
+    "app",
     "Caddyfile",
     "compose.dev.yml",
     "compose.yml",
     "config.ini",
     "Dockerfile",
-    "main.py",
     "requirements.txt",
     "utils",
     "xdocker"

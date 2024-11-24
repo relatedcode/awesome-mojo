@@ -1,6 +1,8 @@
+<img src="https://rel.codes/midjourney/00.png" width="880">
+
 ## OVERVIEW
 
-This application is an open-source iOS concept, designed to showcase 3.2M+ Midjourney images through an interface inspired by Pinterest.
+This application is an open-source iOS concept, designed to showcase 4.2M+ Midjourney images through an interface inspired by Pinterest.
 
 <img src="https://rel.codes/midjourney/01.png" width="880">
 
