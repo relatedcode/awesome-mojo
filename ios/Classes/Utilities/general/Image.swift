@@ -180,6 +180,11 @@ extension Image {
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	class func load(_ link: String, _ completion: @escaping (UIImage?, Error?) -> Void) {
 
+		if (link.isEmpty) {
+			failed("Link error.", completion)
+			return
+		}
+
 		let photoId = link.md5()
 
 		if let image = cache(photoId) {
@@ -258,6 +263,11 @@ extension Image {
 
 	//-------------------------------------------------------------------------------------------------------------------------------------------
 	private class func load(_ link: String, _ size: Size, _ completion: @escaping (UIImage?, Error?, Bool) -> Void) {
+
+		if (link.isEmpty) {
+			failed("Link error.", false, completion)
+			return
+		}
 
 		let photoId = link.md5()
 
@@ -436,7 +446,7 @@ extension Image {
 			while let file = enumerator.nextObject() as? String {
 				let path = Dir.document(file)
 				FileManager.default.fileExists(atPath: path, isDirectory: &isDir)
-				if (isDir.boolValue == false) {
+				if (!isDir.boolValue) {
 					let ext = (path as NSString).pathExtension
 					if (extensions.contains(ext)) {
 						File.remove(path)
